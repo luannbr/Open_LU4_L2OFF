@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/build/${presetName}/stage",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "L2_BUILD_AUTHD": "ON",
+        "L2_BUILD_AUTHGATED": "ON",
+        "L2_BUILD_CACHED": "ON",
+        "L2_BUILD_L2NPC": "ON",
+        "L2_BUILD_L2SERVER": "ON",
+        "L2_ENABLE_GUARD_PROFILING": "OFF",
+        "L2_ENABLE_STARTUP_DIAGNOSTICS": "OFF"
+      }
+    },
+    {
+      "name": "native-debug",
+      "displayName": "Native Debug",
+      "description": "Debug build of the five server applications",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/build/native-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "native-relwithdebinfo",
+      "displayName": "Native RelWithDebInfo",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/build/native-relwithdebinfo",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "native-release",
+      "displayName": "Native Release",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/build/native-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "windows-msvc",
+      "displayName": "Windows MSVC x64",
+      "description": "Multi-config build of the five server applications for Visual Studio 2022",
+      "inherits": "base",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build/windows-msvc"
+    },
+    {
+      "name": "mingw-release",
+      "displayName": "MinGW x86-64 Release",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/build/mingw-release",
+      "toolchainFile": "${sourceDir}/cmake/toolchains/mingw-x86_64.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "L2_BUILD_AUTHD": "OFF",
+        "L2_BUILD_AUTHGATED": "OFF",
+        "L2_BUILD_L2SERVER": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "native-debug",
+      "configurePreset": "native-debug",
+      "jobs": 4,
+      "configuration": "Debug",
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "AuthD",
+        "AuthGateD",
+        "L2Server",
+        "NASC"
+      ]
+    },
+    {
+      "name": "native-relwithdebinfo",
+      "configurePreset": "native-relwithdebinfo",
+      "jobs": 4,
+      "configuration": "RelWithDebInfo",
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "AuthD",
+        "AuthGateD",
+        "L2Server",
+        "NASC"
+      ]
+    },
+    {
+      "name": "native-release",
+      "configurePreset": "native-release",
+      "jobs": 4,
+      "configuration": "Release",
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "AuthD",
+        "AuthGateD",
+        "L2Server",
+        "NASC"
+      ]
+    },
+    {
+      "name": "windows-msvc-debug",
+      "configurePreset": "windows-msvc",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "configuration": "Debug",
+      "jobs": 4,
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "AuthD",
+        "AuthGateD",
+        "L2Server",
+        "NASC"
+      ]
+    },
+    {
+      "name": "windows-msvc-release",
+      "configurePreset": "windows-msvc",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "configuration": "Release",
+      "jobs": 4,
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "AuthD",
+        "AuthGateD",
+        "L2Server",
+        "NASC"
+      ]
+    },
+    {
+      "name": "mingw-release",
+      "configurePreset": "mingw-release",
+      "jobs": 4,
+      "configuration": "Release",
+      "targets": [
+        "L2NPC",
+        "CacheD",
+        "NASC"
+      ]
+    }
+  ]
+}

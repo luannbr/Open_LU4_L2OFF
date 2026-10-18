@@ -1,0 +1,1029 @@
+1090001	Wrapped Pack Containing a Rune of XP 50% (5 hours).
+1090002	Dimensional item\nFor 30 minutes, energy is replenished when XP is acquired through hunting. Cannot be exchanged or dropped.
+1090003	Ancient characters that bestow a mysterious ability when possessed in the inventory. Increases acquired XP by 50%. The remaining period decreases even while logged off.
+1090004	For 30 minutes, it receives the following level 1 effects: Horn Melody, Guitar Melody, Pipe Organ Melody, Lute Melody, and Poem of Harp. Can be used by characters above level 85. Re-use time is 2 minutes. Cannot be exchanged, dropped, or sold in a private
+1090005	Wrapped Pack Containing Sweet Fruit Cocktail.
+1090006	Wrapped Pack Containing Fresh Fruit Cocktail Pack.
+1090007	Increases acquired XP by 50% for a certain amount of time. Can be used regardless of level. Cannot be exchanged or dropped.
+1090008	Potion containing the soul of a hero. Temporarily recovers certain amount of HP and MP
+1090009	Temporarily restores HP by 870. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090010	Wrapped Pack Containing a Rune of Feather (24 hours).
+1090011	Energy is maintained for 30 minutes. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Vitality item with a limited number of use.
+1090012	Dimensional item\nItem that allows you to change a character's name color. You can change back to the original name color by using the "/resetname" command after changing the name color. If there is no original name, the name will disappear.
+1090013	A Divine Weapon Enchant Crystal and a high grade Ancient Weapon Enchant Crystal can be acquired at a constant rate.
+1090014	There is a chance of obtaining a high-grade transformation scroll, scroll: blessed weapon, and scroll: enchant weapon.
+1090015	Increases acquired XP by 50% for a certain amount of time. Can be used regardless of level. Cannot be exchanged or dropped.
+1090016	Dimensional item\nWhen you open the pouch, you can obtain 1 limited period (7 day, 30 day) or permanent Darkmane Pacer, steam beetle, gold maned lion, or jet bike Mount Bracelet.
+1090017	Dimensional item\nCan acquire a Kukurin Feather Helm and a Kukurin Bracelet. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse.
+1090018	Contains an extra entrance pass that allows you to enter Kamaloka (Hall of the Abyss).
+1090019	Contains an extra entrance pass that allows you to enter Kamaloka (Labyrinth of the Abyss).
+1090020	Entrance pass that lets you enter Near Kamaloka for a second time. Can cancel the limit on entrance if used while a limit on entrance to Rim Kamaloka exists. Can only be used once a day outside the instant zone. 
+1090021	Wrapped Pack Containing a Rune of XP 50% (7 days).
+1090022	Wrapped Pack Containing a Rune of SP 50% (5 hours).
+1090023	Wrapped Pack Containing a Rune of SP 50% (7 days).
+1090024	Wrapped Pack Containing a Rune of Crystal Level 5 (5 hours).
+1090025	Wrapped Pack Containing a Rune of Crystal Level 5 (7 days).
+1090026	Lucky Bag filled with good luck. If you use it, you can acquire a hair accessory that has the energy recovery capability. Cannot be exchanged, dropped, or sold.
+1090027	Wrapped Pack Containing a Potion of Energy Replenishing Pack.
+1090028	Wrapped Pack Containing a Vitality Maintaining Potion - 10 min.
+1090029	
+1090030	The Spellbook "remembers"\nspots on the map.\nMake sure to buy\nFlags and Scrolls of Escape!
+1090031	
+1090032	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090033	Magic scroll that moves you to Elven Village. Cannot be exchanged or dropped.
+1090034	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090035	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090036	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090037	Magic scroll that moves you to Gludin Village. Cannot be exchanged or dropped.
+1090038	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090039	Magic scroll that moves you to Town of Dion. Cannot be exchanged or dropped.
+1090040	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090041	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090042	Magic scroll that moves you to Hardin's Academy. Cannot be exchanged or dropped.
+1090043	Magic scroll that moves you to Heine. Cannot be exchanged or dropped.
+1090044	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090045	Magic scroll that moves you to Ivory Tower. Cannot be exchanged or dropped.
+1090046	Magic scroll that moves you to Hunters Village. Cannot be exchanged or dropped.
+1090047	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090048	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090049	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090050	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090051	
+1090052	
+1090053	
+1090054	
+1090055	
+1090056	
+1090057	
+1090058	
+1090059	
+1090060	There is a certain chance that you will receive the ancient text Increase of Divinity (original) and the Lesser Giant's Codex. Cannot be exchanged, dropped, or sold.
+1090061	
+1090062	A Divine Weapon Enchant Crystal and a high grade Ancient Weapon Enchant Crystal can be acquired at a constant rate. Cannot be exchanged or dropped.
+1090063	
+1090064	Has a chance to contain an Ancient Weapon Enchant Crystal or a Scroll: Enchant Weapon with 10 % improved success rate. Cannot be exchanged or dropped.
+1090065	
+1090066	A Divine Armor Enchant Crystal and a high grade Ancient Armor Enchant Crystal can be acquired at a constant rate. Cannot be exchanged or dropped.
+1090067	A high grade Ancient Armor Enchant Crystal and Armor Enchant Scroll with 10 % improved success rate can be acquired at a constant rate. Cannot be exchanged or dropped.
+1090068	Ancient Armor Enchant Crystal and Armor Enchant Scroll with 10 % improved success rate can be acquired at a constant rate. Cannot be exchanged or dropped.
+1090069	
+1090070	Wrapped Pack Containing a C-Grade Weapon Enhance Backup Stone.
+1090071	Wrapped Pack Containing a B-Grade Weapon Enhance Backup Stone. 
+1090072	
+1090073	
+1090074	Wrapped Pack Containing a D-Grade Armor Enhance Backup Stone. 
+1090075	
+1090076	
+1090077	Wrapped Pack Containing an A-Grade Armor Enhance Backup Stone. 
+1090078	Wrapped Pack Containing a S-Grade Armor Enhance Backup Stone. 
+1090079	
+1090080	
+1090081	
+1090082	
+1090083	If used, five thousand Soulshots in S-grade are acquired.
+1090084	
+1090085	
+1090086	If used, five thousand Blessed Spiritshots in A-grade are acquired.
+1090087	
+1090088	
+1090089	Can acquire 5,000 blessed spiritshots (R-grade).
+1090090	
+1090091	
+1090092	Item that raises the ability to enchant an R-grade armor by 15%. This can only be used on items that have been enchanted 3~9 times. For one-piece items, this can only be used on items that have been enchanted 3~9 times.
+1090093	Item that raises the ability to enchant an R-grade weapon by 10%. This can only be used on items that have been enchanted 3~9 times. Cannot be exchanged, dropped, or destroyed.
+1090094	Dimensional item\nAn exchange coupon that can be exchanged for a necklace that allows you to summon a Minion (5 hours). Can be exchanged through the Dimensional Merchant. Cannot be exchanged, dropped, or destroyed.
+1090095	It recovers CP by 200. Delay for reuse is very short. Cannot be exchanged or dropped.
+1090096	
+1090097	Wrapped pack containing a Monkey King Agathion. Cannot be exchanged, dropped, or sold. Item to be stored in a private warehouse.
+1090098	Wrapped pack containing a Utanka Agathion. Cannot be exchanged, dropped, or sold. Item to be stored in a private warehouse.
+1090099	
+1090100	
+1090101	
+1090102	
+1090103	
+1090104	
+1090105	
+1090106	
+1090107	
+1090108	
+1090109	
+1090110	Rudolph's Nose. 14-day-limited-time Item. Cannot be exchanged or dropped.
+1090111	The Santa Hat made for celebrating Christmas. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090112	Wrapped pack containing Miracle Happy Cake: Decoration. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090113	A rune increases acquired XP base rate by 50%. Duration: 1 hour. The remaining time decreases even when not playing. More efficient to be used with Nevit's Hourglass.
+1090114	A rune increases acquired XP base rate by 50%. Duration: 5 hours. The remaining time decreases even when not playing. More efficient to be used with Nevit's Hourglass.
+1090115	A rune increases acquired XP base rate by 50%. Duration: 7 days.  The remaining time decreases even when not playing. More efficient to be used with Nevit's Hourglass.
+1090116	A rune increases acquired SP base rate by 50%. Duration: 5 hours. The remaining time decreases even when not playing. 
+1090117	A rune increases acquired SP base rate by 50%. Duration: 7 days. The remaining time decreases even when not playing.
+1090118	A rune reduces a penalty for inappropriate equipment grade. Decreases the level needed to equip items by 5. Duration: 5 hours. The remaining time decreases even when not playing.
+1090119	A rune reduces a penalty for inappropriate equipment grade. Decreases the level needed to equip items by 5. Duration: 7 days.  The remaining time decreases even when not playing.
+1090120	Dimentional Item Pack\nA pack containing Rune of XP 30% (3-hour limited period). Can be dropped, registered to a private store, or destroyed. Cannot be dropped. Can be stored in a private warehouse. Cannot be exchanged once the pack is open.
+1090121	Dimentional Item Pack\nA pack containing Rune of XP 30% (1-hour limited period). Can be dropped, registered to a private store, or destroyed. Cannot be dropped. Can be stored in a private warehouse. Cannot be exchanged once the pack is open.
+1090122	A package containing Rune of SP 30% 1 hour. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090123	Pick the color to your liking.\nStand out. Be bright!
+1090124	Potion containing the soul of a hero. Temporarily recovers HP by 500 and MP by 200. 60 seconds reuse delay. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090125	
+1090126	
+1090127	
+1090128	Restores 100 HP per second for 15 seconds. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090129	
+1090130	There is a certain chance that you will receive the ancient text Increase of Divinity (original) and the Lesser Giant's Codex. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090131	Has a certain chance to contain a Divine Weapon Enchant Crystal or a high grade Ancient Weapon Enchant Crystal. Cannot be exchanged, dropped or sold.
+1090132	Has a certain chance to contain a Divine Armor Enchant Crystal or a high grade Ancient Armor Enchant Crystal. Cannot be exchanged, dropped or sold. Can be stored in a private warehouse.
+1090133	Has a certain chance to contain a Divine Weapon Enchant Crystal or a high grade Ancient Weapon Enchant Crystal. Cannot be exchanged or dropped.
+1090134	Has a certain chance to contain a Divine Armor Enchant Crystal or a high grade Ancient Armor Enchant Crystal. Cannot be exchanged, dropped or sold. Can be exchanged or dropped.
+1090135	Has a chance to contain a high-grade Ancient Weapon Enchant Crystal or a Scroll: Enchant Weapon with 10 % improved success rate. Cannot be exchanged or dropped.
+1090136	Has a certain chance to contain a high grade Ancient Armor Enchant Crystal or Armor Enchant Scroll with 10% improved success rate. Cannot be exchanged or dropped.
+1090137	Has a chance to contain an Ancient Weapon Enchant Crystal or a Scroll: Enchant Weapon with 10 % improved success rate. Cannot be exchanged or dropped.
+1090138	Has a certain chance to contain Ancient Armor Enchant Crystal or Armor Enchant Scroll with 10% improved success rate. Cannot be exchanged or dropped.
+1090139	Has a certain chance to contain a Divine Weapon Enchant Crystal or a high grade Ancient Weapon Enchant Crystal.
+1090140	There is a chance of obtaining a high-grade transformation scroll, scroll: blessed weapon, and scroll: enchant weapon.
+1090141	A Rune increases the weight limit by 20%. The remaining time decreases even when not playing. Duration 24 hours.
+1090142	
+1090143	For 30 minutes, it receives the following level 2 effects: Horn Melody, Guitar Melody, Pipe Organ Melody, Lute Melody and Harp Melody. Can be used by characters above level 85. Re-use time is 2 minutes. Cannot be exchanged, dropped or sold.
+1090144	It recovers CP by 200. Delay for reuse is very short. Cannot be exchanged or dropped.
+1090145	Wrapped Pack Containing Sweet Fruit Cocktail.
+1090146	Wrapped Pack Containing Fresh Fruit Cocktail Pack.
+1090147	If used, five thousand Blessed Spiritshots in C-grade are acquired.
+1090148	If used, five thousand Blessed Spiritshots in B-grade are acquired.
+1090149	If used, five thousand Blessed Spiritshots in A-grade are acquired.
+1090150	If used, five thousand Blessed Spiritshots in S-grade are acquired.
+1090151	Can acquire 5,000 blessed spiritshots (R-grade).
+1090152	If used, five thousand Soulshots in D-grade are acquired.
+1090153	If used, five thousand Soulshots in C-grade are acquired.
+1090154	If used, five thousand Soulshots in B-grade are acquired.
+1090155	If used, five thousand Soulshots in A-grade are acquired.
+1090156	If used, five thousand Soulshots in S-grade are acquired.
+1090157	Can acquire 5,000 soulshots (R-grade).
+1090158	
+1090159	
+1090160	
+1090161	Vitality is maintained for 30 minutes. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Vitality item with a limited number of use.
+1090162	Increases acquired XP by 50% for a certain amount of time. Can be used regardless of level. Cannot be exchanged or dropped.
+1090163	Increases acquired XP by 50% for a certain amount of time. Can be used regardless of level. Cannot be exchanged or dropped.
+1090164	Dimensional item\nFor 30 minutes, vitality is replenished when XP is acquired through hunting. Cannot be exchanged or dropped. Can be shared between characters within the same account through the Dimensional Merchant. Can be stored in a private warehouse.
+1090165	Wrapped Pack containing a D-Grade Weapon Enhance Backup Stone. The use of multiple items does not give a cumulative effect.
+1090166	Wrapped Pack Containing a C-Grade Weapon Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090167	Wrapped Pack Containing a B-Grade Weapon Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090168	Wrapped Pack Containing an A-Grade Weapon Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090169	Wrapped Pack Containing a S-Grade Weapon Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090170	Item that raises the ability to enchant an R-grade weapon by 10%. The use of multiple items does not give a cumulative effect.
+1090171	Wrapped Pack Containing a D-Grade Armor Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090172	Wrapped Pack Containing a C-Grade Armor Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090173	Wrapped Pack Containing a B-Grade Armor Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090174	Wrapped Pack Containing an A-Grade Armor Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090175	Wrapped Pack Containing a S-Grade Armor Enhance Backup Stone.  The use of multiple items does not give a cumulative effect.
+1090176	Item that raises the ability to enchant an R-grade armor by 15%. The use of multiple items does not give a cumulative effect.
+1090177	Enjoy fast rides?\nRide quick as the wind\non this great mount!\n
+1090178	
+1090179	
+1090180	
+1090181	
+1090182	
+1090183	
+1090184	
+1090185	
+1090186	
+1090187	
+1090188	
+1090189	
+1090190	
+1090191	
+1090192	Hat made of delicious-looking cheese. If you look carefully, you can find a hidden golden mouse. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090193	Refined Wizard Hat. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090194	Refined Jester Hat. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090195	Refined Dapper Cap. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090196	Refined Angel Ring. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090197	Hat that was worn by Reipung. Cannot be exchanged or dropped.
+1090198	Polar bear hat that makes you feel cozy just by looking at it. Uses 2 hair accessory slot(s).
+1090199	Contains mysterious power. Used to change fate. Cannot be exchanged, dropped, or destroyed.
+1090200	Dimensional item. Can ride a purple maned horse when equipped. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090201	
+1090202	
+1090203	
+1090204	
+1090205	
+1090206	Dimensional Item\nWhen possessed in inventory, it increases XP and SP acquired through hunting by 100%. Only effective for players with levels 85 and below. Cannot be exchanged/dropped. Can be destroyed. Can be stored in a private warehouse.
+1090207	Bracelet that summons an XP Bottle Agathion. The bracelet must be removed in order to seal the Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. Cannot be exchanged, dropped, or destroyed.
+1090208	Bracelet that summons an XP Bottle Agathion. The bracelet must be removed in order to seal the Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. Cannot be exchanged, dropped, or destroyed.
+1090209	Bracelet that summons an XP Bottle Agathion. The bracelet must be removed in order to seal the Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. Cannot be exchanged, dropped, or destroyed.
+1090210	Bracelet that summons an XP Bottle Agathion. The bracelet must be removed in order to seal the Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. Cannot be exchanged, dropped, or destroyed.
+1090211	Wrapped Pack containing a Ball Trapping Gnosian Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090212	Wrapped Pack containing a Ball Trapping Orodriel Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090213	Wrapped Pack containing a Penalty Kick Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse.
+1090214	Wrapped Pack containing a Soccer Hall Afro Hair (White). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090215	Wrapped Pack containing a Soccer Hall Afro Hair (Blue). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090216	Wrapped Pack containing 10 proofs of cheers. Cannot be exchanged or dropped.
+1090217	Dimensional Item\nIncreases the number of vitality items that can be used per week by 2. Cooldown is 3 day(s). Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090218	Dimensional Item\nIncreases the number of vitality items that can be used per week by 3. Cooldown is 3 day(s). Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090219	
+1090220	Fought yourself into\nnegative reputation?\nThis scroll will\nclean you up!
+1090221	
+1090222	
+1090223	
+1090224	Dimensional Item\nReplenishes 1 slot of Vitality when used. Cooldown is 60 minute(s). Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090225	Dimensional Item\nReplenishes 2 slots of Vitality when used. Cooldown is 60 minute(s). Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090226	Dimensional Item\nReplenishes Vitality to maximum when used. Cooldown is 60 minute(s). Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090227	Powerful-looking Black Bear Hat. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090228	Hat shaped like a preying mantis with sharp claws. Uses 2 hair accessory slot(s). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090229	Dimensional Item\nHat that looks like a white sheep. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090230	Dimensional Item\nHat that looks like a frog. Can be used for 7 days. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090231	Hat shaped like a stag beetle with 2 tough jaws. Uses 2 hair accessory slot(s). Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090232	
+1090233	
+1090234	
+1090235	
+1090236	
+1090237	Take this and the Aden White Beer to Queen of Hearts to obtain the Gran Kan Delight. Cannot be exchanged or dropped. Can be destroyed. Can be stored in the private warehouse.
+1090238	Dimensional Item Pack\nWrapped Pack containing a Rune of XP 50% (7-day). Cannot be exchanged or dropped. Can be shared between characters within the same account through the Dimensional Merchant.
+1090239	
+1090240	
+1090241	
+1090242	The Santa Hat made for celebrating Christmas. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090243	Dimensional Item\nTransformation stick that turns you into a Snow Kung. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090244	This festive hat can put anyone into a the holiday spirit. It cannot be exchanged, dropped or sold.
+1090245	
+1090246	The total quantity of vitality slots available per week cannot exceed 5 even after using a scroll (10 for Premium Account users).
+1090247	The total quantity of vitality slots available per week cannot exceed 5 even after using a scroll (10 for Premium Account users).
+1090248	Replenishes 25% of the maximum Vitality. Vitality item with limited usage.
+1090249	Replenishes 50% of the maximum Vitality. Vitality item with limited usage.
+1090250	Replenishes 100% of the maximum Vitality. Vitality item with limited usage.
+1090251	More efficient to be used with XP Rune 50%.
+1090252	More efficient to be used with XP Rune 50%.
+1090253	
+1090254	
+1090255	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Giant Enchant Scrolls.
+1090256	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Giant Enchant Scrolls.
+1090257	
+1090258	Can acquire 5,000 Blessed Spiritshots (R-grade). Can be exchanged, dropped, and destroyed. Can be stored in the private warehouse.
+1090259	Replaces Warrior's Harmony.
+1090260	Replaces Knight's Harmony.
+1090261	Replaces Wizard's Harmony.
+1090262	
+1090263	Grants 6 additional inventory slots upon usage.
+1090264	Grants 6 additional inventory slots upon usage. Level 2 is available only after level 1 is learnt
+1090265	Grants 6 additional warehouse slots upon usage.
+1090266	Grants 6 additional warehouse slots upon usage. Level 2 is available only after level 1 is learnt.
+1090267	
+1090268	
+1090269	
+1090270	
+1090271	
+1090272	Can summon a Love Agathion when equipped. Can be used for 14 days. Cannot be exchanged or dropped. No restore after deletion available for this item.
+1090273	Can summon an Agathion - Juju when equipped. Can be used for 14 days. Cannot be exchanged or dropped. No restore after deletion available for this item.
+1090274	Bracelet that summons a delightful Cupid Agathion. Cannot be exchanged, dropped or sold.
+1090275	Bracelet that summons a mischievous Cupid Agathion. Cannot be exchanged, dropped or sold.
+1090276	Bracelet that can summon a lover. The summon is possible when the summoner and the one being summoned are all party members who are equipped with the Summon of Love Bracelet. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse.
+1090277	Dimensional Item\nSends a Heart with love. Can use the 'Heart Shot' active skill. \nWarning: If you use this skill against a monster, you will be flagged for PvP. Cannot be exchanged/dropped. Can be destroyed. Can be stored in a private warehouse.
+1090278	
+1090279	
+1090280	
+1090281	
+1090282	
+1090283	
+1090284	A rune increases acquired SP base rate by 50%. Duration: 1 hour. The remaining time decreases even when not playing.
+1090285	
+1090286	
+1090287	
+1090288	
+1090289	
+1090290	
+1090291	Dimensional Item\nChanges the appearance of a two-handed blunt to Drake Maul. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090292	Dimensional Item\nChanges the appearance of a two-handed blunt to Freya's Staff. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090293	Dimensional Item\nChanges the appearance of a two-handed fist weapon to Spezion's Claw. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090294	Dimensional Item\nChanges the appearance of a spear to Maliss Stormer. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090295	Dimensional Item\nChanges the appearance of a one-handed dagger to Steregos' Dagger. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090296	Dimensional Item\nChanges the appearance of a dual blunt to Ron's Dual Blunt. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090297	Dimensional Item\nChanges the appearance of a one-handed sword to Darion's Hellblade. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090298	Dimensional Item\nChanges the appearance of a dual dagger to Doll Blader's Butcher Blade. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090299	Dimensional Item\nChanges the appearance of a one-handed blunt to Tiat's Claw of Destruction. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090300	Dimensional Item\nChanges the appearance of a dualsword to Aenkinel's Blades of Delusion. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090301	Dimensional Item\nChanges the appearance of a two-handed sword to Blood Brother. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090302	Dimensional Item\nChanges the appearance of a one-handed sword to Mardil's Fan. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090303	A Crystal: Enchant Divine Weapon and a high -grade Crystal: Enchant Ancient Weapon can be acquired at a constant rate.
+1090304	Has a chance of obtaining a high-grade transformation scroll, scroll: blessed weapon, and Scroll: Enchant Weapon.
+1090305	
+1090306	
+1090307	
+1090308	
+1090309	
+1090310	
+1090311	
+1090312	Read carefully the instruction in the item description before using the service.
+1090313	Read carefully the instruction in the item description before using the service.
+1090314	When equipped, grants a Vitality Maintaining skill. Recovers Vitality for 5 minutes during hunting. Cooldown: 1 hour. The skill is not subject to the vitality items usage limitation.
+1090315	When equipped, grants a Vitality Maintaining skill. Recovers Vitality for 5 minutes during hunting. Cooldown: 1 hour. The skill is not subject to the vitality items usage limitation.
+1090316	
+1090317	
+1090318	Changes the appearance of a top into that of a Metal Suit. An appearance-modified item has no change in abilities. All armor types. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090319	Changes the appearance of pants into that of a Metal Suit. An appearance-modified item has no change in abilities. All armor types. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090320	Changes the appearance of gloves into that of a Metal Suit. An appearance-modified item has no change in abilities. All armor types. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090321	Changes the appearance of shoes into that of a Metal Suit. An appearance-modified item has no change in abilities. All armor types. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090322	Dimensional Item\nChanges the appearance of a hair accessory into Metal Suit style. Can be used only on hair accessories that take up 2 slots. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090323	Changes the appearance of a top into that of a Ninja Outfit. An appearance-modified item has no change in abilities. All armor types. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse. Modification creates an Active Skill.
+1090324	Changes the appearance of pants into that of a Ninja Outfit. An appearance-modified item has no change in abilities. All armor types. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse. Modification creates an Active Skill.
+1090325	Changes the appearance of gloves into that of a Ninja outfit. An appearance-modified item has no change in abilities. All armor types. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse. Modification creates an Active Skill.
+1090326	Changes the appearance of shoes into that of a Ninja outfit. An appearance-modified item has no change in abilities. All armor types. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse. Modification creates an Active Skill.
+1090327	Changes the appearance of a hair accessory into that of a Ninja outfit. Can be used only on hair accessories that take up 2 slots. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse.
+1090328	
+1090329	
+1090330	
+1090331	
+1090332	
+1090333	
+1090334	
+1090335	
+1090336	Can be used no more than 5 times a day. Usage count is reset at 6: 30 a.m. every day.
+1090337	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090338	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090339	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090340	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090341	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090342	Cannot be used by characters in a chaotic state (Karma is below 0).
+1090343	Can be used by characters of level 95 and above. Cannot be used by characters in a chaotic state (Karma is below 0).
+1090344	Can be used by characters of level 95 and above. Cannot be used by characters in a chaotic state (Karma is below 0).
+1090345	Can be used by characters of level 95 and above. Cannot be used by characters in a chaotic state (Karma is below 0).
+1090346	
+1090347	
+1090348	
+1090349	Kadomas Transformation Stick. Can be used for 7 days. Cannot be exchanged or dropped.
+1090350	Replenishes Vitality to max when used. Cooldown is 60 min. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090351	Double-click to lower PK value by 1. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090352	Double-click to lower PK value by 3. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090353	Double-click to lower PK value by 5. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090354	Double-click to lower PK value by 10. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090355	Double-click to raise Rep. value by 1000. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090356	Double-click to raise Rep. value by 5000. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090357	Double-click to raise Rep. value by 30000. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090358	Double-click to change Rep. value to 0. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090359	
+1090360	
+1090361	Change your gender!\nNo scalpel, no pain!
+1090362	An opportunity for your\ncharacter to start over!
+1090363	Chest containing countless treasures. You can obtain either an Ancient/Divine Enchant Scroll, Lv. 5 Legendary Dye, Seal Scroll, or Life Stone. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090364	Double-click to lift the restrictions to Lv. 85 Kartia's Labyrinth solo dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090365	Double-click to lift the restrictions to Lv. 90 Kartia's Labyrinth solo dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090366	Double-click to lift the restrictions to Lv. 95 Kartia's Labyrinth solo dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090367	Double-click to lift the restrictions to Lv. 85 Kartia's Labyrinth party dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090368	Double-click to lift the restrictions to Lv. 90 Kartia's Labyrinth party dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090369	Double-click to lift the restrictions to Lv. 95 Kartia's Labyrinth party dungeon. Can only be used once a day outside the dungeon while on a cooldown. Can be exchanged, dropped, and destroyed. Can be stored in a private warehouse.
+1090370	Wrapped Pack containing an XP Rune III (Lv. 1-99) 50% (7-day).
+1090371	Wrapped Pack containing an SP Rune 50% (7-day).
+1090372	XP Rune I (Lv. 1-85) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090373	Kit with items for 1 hour.\nUse your time wisely!
+1090374	5 hour level-up\nat full speed!\nStock up for the night!\n
+1090375	Dimensional Item\nMaintains Vitality for 10 min. Cooldown is 30 min. Can be exchanged, dropped, destroyed, sold in a private store, and stored in a private warehouse. Vitality item with limited usage.
+1090376	Red Bean Slushie made by Herina. Use this top-quality slushie to change into an Alluring Swimsuit. For 1 hr., Atk. Spd. + 10%, Casting Spd. + 10%, Speed. + 10, and Max HP/MP + 10%. Cooldown is 1 hr. Cannot be exchanged or dropped.
+1090377	Changes the appearance of a top to that of an Alluring Swimsuit. Can also modify one-pieces, and makes the entire armor look like the swimsuit. Cloak becomes invisible once modified. Can restore the appearance through a Restoration Stone.
+1090378	Changes the appearance of a top to that of a Seductive Swimsuit. Can also modify one-pieces, and makes the entire armor look like the swimsuit. Cloak becomes invisible once modified. Can restore the appearance through a Restoration Stone.
+1090379	Dimensional Item\nUpon use, for 4 hours, you can temporarily feel the Vitality recovery herb's effect. No effect applies when used while the "Birthday Vitality" buff is in effect. Cooldown is 60 min. Vitality item with limited usage.
+1090380	Dimensional Item\nTransformation harp that turns you into an Aqua Elf. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090381	Increases acquired XP and SP by 30% for 1 hour. Cannot be exchanged or dropped. Can be stored in a private warehouse.
+1090382	A unique Japanese-style\nWeapon Appearance stone!
+1090383	
+1090384	Used when hunting on the main class. Additional items for a fast dual and sub class development can be obtained by killing monsters.
+1090385	Used when hunting on the main class. Additional items for a fast dual and sub class development can be obtained by killing monsters.
+1090386	Used when hunting on the main class. Additional items for a fast dual and sub class development can be obtained by killing monsters.
+1090387	
+1090388	
+1090389	
+1090390	
+1090391	
+1090392	
+1090393	
+1090394	When equipped, grants a Vitality Maintaining skill. Recovers Vitality for 5 minutes during hunting. Cooldown: 1 hour. The skill is not subject to the vitality items usage limitation.
+1090395	When equipped, grants a Vitality Maintaining skill. Recovers Vitality for 5 minutes during hunting. Cooldown: 1 hour. The skill is not subject to the vitality items usage limitation.
+1090396	
+1090397	
+1090398	
+1090399	
+1090400	
+1090401	
+1090402	Replenishes 100% of the maximum Vitality. Vitality item with limited usage.
+1090403	
+1090404	A chest with lots of valuable\nitems inside.\nTake your chance!\n
+1090405	
+1090406	
+1090407	
+1090408	
+1090409	
+1090410	
+1090411	
+1090412	
+1090413	
+1090414	
+1090415	Item for "Miss Linenage 2" contestants.
+1090416	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Normal Enchant Scrolls.
+1090417	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Normal Enchant Scrolls.
+1090418	Read carefully the instruction in the item description before using the service.
+1090419	You can change your main class to any other class within the same class type by visiting Hardin with this item. After the main class is changed the Olympiad points are set to 10. Skill enchanting resets. SP points are not to be refunded.
+1090420	You can change your dual class to any other class within the same class type by visiting Hardin with this item. Skill enchanting resets. SP points are not to be refunded.
+1090421	XP Rune I (Lv. 1-85) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090422	XP Rune II (Lv. 1-95) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090423	XP Rune II (Lv. 1-95) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090424	XP Rune II (Lv. 1-95) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090425	A pack with chests\nand a unique gift.\nLimited time offer.\n
+1090426	
+1090427	
+1090428	
+1090429	Tired of boring cloaks?\nThis fabulous Hussar's Wing\nis something that will let you\nstand out from the crowd!
+1090430	An exclusive weapon appearance\nstone that will make your weapon\nlook like one from “Star Wars”!\n
+1090431	An exclusive weapon appearance \nstone with a unique\nJapanese style inside!\n
+1090432	
+1090433	
+1090434	
+1090435	
+1090436	
+1090437	
+1090438	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090439	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090440	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090441	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090442	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090443	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090444	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090445	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090446	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090447	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090448	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090449	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090450	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090451	Hair accessory from this pack may be used as a prototype of your appearance for accessories that require 2 slots to wear.
+1090452	Ancient chest with\na lot of unique treasures!
+1090453	
+1090454	
+1090455	
+1090456	
+1090457	
+1090458	
+1090459	
+1090460	
+1090461	When equipped gives a unique skill: For one hour HP and MP are increased by 40%, Atk. Speed by 10% and P.Atk. by 20%. Resistance to Dark is increased by 20%. Skill reuse time: 2 hours.
+1090462	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090463	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090464	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090465	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090466	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090467	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090468	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090469	Wealth, spirit or body?\nwhat's better? No doubt!\nThis box will help you to figure it out.\n
+1090470	
+1090471	
+1090472	
+1090473	
+1090474	
+1090475	
+1090476	This Christmas you can\nbecome a Santa Claus, too!
+1090477	
+1090478	Santa Claus is coming to Core!\nAll you really want for\nChristmas is this Pack!\n
+1090479	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090480	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090481	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090482	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090483	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090484	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090485	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090486	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090487	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090488	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090489	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090490	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090491	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090492	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090493	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090494	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090495	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090496	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090497	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. You can restore the original apperance of the item using Equipment Restoration Stone that are avaliable in the in-game store.
+1090498	
+1090499	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. All types of gear are avaliable for enchanting: heavy, light and magical.
+1090500	You cannot enchant Steel equipment, that can be bought for Steel Door Guild Coins. All types of gear are avaliable for enchanting: heavy, light and magical.
+1090501	
+1090502	
+1090503	
+1090504	
+1090505	Item can be used as Extraction target for changing appearance of a Bow type weapon.
+1090506	
+1090507	
+1090508	
+1090509	The chest contains 3 talismans with limited duration – 7 days. Each talisman grants +2 to the corresponding stat.
+1090510	The chest contains 3 talismans with limited duration – 7 days. Each talisman grants +2 to the corresponding stat.
+1090511	The chest contains 4 talismans with limited duration – 7 days. Each of the Talismans grants +15 to corresponding resistance type.
+1090512	
+1090513	
+1090514	Why don’t you power up\nyour character?\nThis special Shirt\nis the best way to do it!
+1090515	
+1090516	
+1090517	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090518	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090519	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090520	Can be used by character of lvl 99. Cannot be used by characters in a chaotic state (Karma is below 0).
+1090521	
+1090522	
+1090523	
+1090524	
+1090525	
+1090526	This stone can only be used for modifying items with Blessed Scroll of Enchant (S-grade).
+1090527	This stone can only be used for modifying items with Blessed Scroll of Enchant (S-grade).
+1090528	
+1090529	
+1090530	Applies an effect of all 6 Poems, 3 Sonatas, and one Harmony of the corresponding type. Lasts for 1 hour.
+1090531	Applies an effect of all 6 Poems, 3 Sonatas, and one Harmony of the corresponding type. Lasts for 1 hour.
+1090532	Applies an effect of all 6 Poems, 3 Sonatas, and one Harmony of the corresponding type. Lasts for 1 hour.
+1090533	
+1090534	
+1090535	
+1090536	
+1090537	
+1090538	
+1090539	
+1090540	
+1090541	
+1090542	
+1090543	
+1090544	
+1090545	XP Rune II (Lv. 1-95) effect stacks with XP Rune III (Lv. 1-99) effect.
+1090546	Effect of XP Runa III (Lv. 1-99) 100% does not stack with the effect of XP Runa III (Lv. 1-99) 50%
+1090547	Effect of XP Runa III (Lv. 1-99) 100% does not stack with the effect of XP Runa III (Lv. 1-99) 50%
+1090548	Cannot use 2 or more Prestige Cubes at the same time. The limit of one Cube per day affects all Prestige Cubes that character has.
+1090549	The complete list of items contained in Easter Egg can be found in the news section of our forum.
+1090550	The complete list of items contained in Easter Egg can be found in the news section of our forum.
+1090551	
+1090552	
+1090553	
+1090554	For 30 min., obtained XP + 10%, Max HP/MP/CP + 30%, P. Def./M. Def. + 30%, Speed + 20, P. Atk. + 10%, and M. Atk. + 20%. Skill MP Consumption - 15%. Cannot use with the Art of Seduction buff.
+1090555	Detailed description of the item can be found in the news section of our forum.
+1090556	Detailed description of the item can be found in the news section of our forum.
+1090557	
+1090558	All-inclusive for\ntrue-born hunters
+1090559	Wondering what the future\nwill bring you?\nAsk Eve the Astrologer about it\nand win great prizes!
+1090560	
+1090561	
+1090562	An exclusive weapon appearance\nstone that will make your weapon\nlook like one from “Star Wars”!\n
+1090563	A unique Japanese-style\nWeapon Appearance stone!
+1090564	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Resurrection Device" available: With the device's power, you can use a Blessed Resurrection skill. Cooldown is 1 hr. Final stage.
+1090565	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Ninja's Hide" available: For 30 sec., you're invisible and safe from unprovoked monsters. Effect cancelled if you attack. Speed - 10%. Cooldown is 1 hr. Final stage.
+1090566	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Rainbow Warrior's Recovery" available: With Rainbow Warrior's blessing, recovers 100% HP and 30% CP. Non-battle only. Cooldown is 1 hr. Final stage.
+1090567	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new passive skill "Special Ops' Experience" available: With the wisdom of an experienced soldier, Critical Rate increases in dire situations. Final stage.
+1090568	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090569	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090570	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090571	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090572	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090573	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090574	
+1090575	
+1090576	
+1090577	
+1090578	
+1090579	
+1090580	
+1090581	
+1090582	Shine bright\nlike a diamond\nwith a new \nPa'agrio's Shirt!
+1090583	Shine bright\nlike a diamond\nwith a new\nSayha's Shirt!
+1090584	Shine bright\nlike a diamond\nwith a new\nEva's Shirt!
+1090585	Shine bright\nlike a diamond\nwith a new\nMaphr's Shirt!
+1090586	
+1090587	
+1090588	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090589	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090590	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090591	
+1090592	
+1090593	
+1090594	
+1090595	
+1090596	
+1090597	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090598	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090599	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090600	An outfit \nfor a true samurai!
+1090601	
+1090602	
+1090603	
+1090604	
+1090605	
+1090606	A pet who can cast\na powerful buff.\nIt will be useful\nfor the whole party!
+1090607	
+1090608	
+1090609	
+1090610	
+1090611	
+1090612	
+1090613	
+1090614	
+1090615	
+1090616	
+1090617	
+1090618	A trial set of  \none-hour runes\nfor the quickest start.\nFeel the difference!
+1090619	A set of 7-day runes  \nfor each newbie\non a fair price!\n
+1090620	
+1090621	
+1090622	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090623	
+1090624	
+1090625	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090626	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090627	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090628	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090629	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090630	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090631	An outfit \nfor a true samurai!
+1090632	Cannot use 2 or more Prestige Cubes at the same time. The limit of one Cube per day affects all Prestige Cubes that character has.
+1090633	Double-click to raise Rep. value by 1000. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090634	Double-click to change Rep. value to 0. Can only be used while in a chaotic state (Rep. value is below 0). Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession. Must be in Floran Village to use.
+1090635	Double-click to lower PK value by 1. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090636	Double-click to lower PK value by 10. Must be in Floran Village to use. It can only be used when the PK value is above 1. Cannot be used when the Demonic Sword Zariche or the Blood Sword Akamanah are in possession.
+1090637	
+1090638	
+1090639	Can be used no more than 5 times a day. Usage count is reset at 6: 30 a.m. every day.
+1090640	
+1090641	
+1090642	
+1090643	
+1090644	
+1090645	
+1090646	
+1090647	
+1090648	
+1090649	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090650	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090651	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090652	
+1090653	
+1090654	
+1090655	
+1090656	
+1090657	
+1090658	
+1090659	
+1090660	
+1090661	
+1090662	
+1090663	
+1090664	
+1090665	
+1090666	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090667	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090668	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090669	
+1090670	
+1090671	
+1090672	
+1090673	
+1090674	
+1090675	
+1090676	
+1090677	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090678	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090679	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090680	
+1090681	
+1090682	
+1090683	
+1090684	
+1090685	
+1090686	
+1090687	
+1090688	
+1090689	
+1090690	
+1090691	
+1090692	
+1090693	
+1090694	
+1090695	
+1090696	
+1090697	
+1090698	
+1090699	
+1090700	
+1090701	
+1090702	
+1090703	
+1090704	
+1090705	
+1090706	
+1090707	
+1090708	
+1090709	
+1090710	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090711	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090712	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090713	
+1090714	
+1090715	
+1090716	
+1090717	
+1090718	
+1090719	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090720	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090721	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090722	
+1090723	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090724	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090725	When in invertory, the chance of item drop and item assingment +100%, the amount of adena dropped +100%. The rune is active even when character is offline. Effects from 2 or more runes of the same kind don’t stack.
+1090726	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Normal Enchant Scrolls.
+1090727	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Normal Enchant Scrolls.
+1090728	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Giant Enchant Scrolls.
+1090729	The stone cannot be used with Blessed, Ancient, Divine Scrolls and Giant Enchant Scrolls.
+1090730	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090731	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090732	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090733	Precious talismans\nand a unique zodiac agathion\nawait you inside!\n
+1090734	Everything you need\nfor a successful enchantment:\nnow in one box!\n
+1090735	Open the Casket!\nUnique scrolls,\npowerful magic potions\nand rare Runes await you inside
+1090736	
+1090737	
+1090738	
+1090739	
+1090740	
+1090741	
+1090742	
+1090743	
+1090744	
+1090745	
+1090746	
+1090747	
+1090748	
+1090749	
+1090750	
+1090751	
+1090752	
+1090753	Special offer for\nthe period of preparation\nfor the upcoming update!\nDon't miss your chance!
+1090754	
+1090755	
+1090756	
+1090757	
+1090758	
+1090759	
+1090760	Your favorite caskets\nare now full of new\namazing treasures!\n
+1090761	
+1090762	
+1090763	
+1090764	
+1090765	Campfire warmth\nwill keep your spirit up\nand enhance attack\nof the whole party!
+1090766	Kotatsu - japanese symbol\nof comfort. It will give you\nstrength and enhance\nyour defences during hunt!
+1090767	
+1090768	
+1090769	
+1090770	
+1090771	
+1090772	
+1090773	
+1090774	
+1090775	
+1090776	
+1090777	
+1090778	
+1090779	Cannot use 2 or more Prestige Cubes at the same time. The limit of one Cube per day affects all Prestige Cubes that character has.
+1090780	
+1090781	
+1090782	
+1090783	
+1090784	
+1090785	
+1090786	
+1090787	
+1090788	
+1090789	
+1090790	
+1090791	
+1090792	
+1090793	
+1090794	
+1090795	
+1090796	
+1090797	
+1090798	
+1090799	
+1090800	
+1090801	Go Freya-O!\nSwing that magic wand!
+1090802	
+1090803	Best offer of this Christmas!
+1090804	Limited time offer!\nDon't miss our new bundle!
+1090805	
+1090806	
+1090807	
+1090808	
+1090809	
+1090810	
+1090811	
+1090812	
+1090813	
+1090814	New treasures,\nNew price!\nFortune favours the brave!\n
+1090815	
+1090816	
+1090817	
+1090818	
+1090819	
+1090820	
+1090821	
+1090822	
+1090823	
+1090824	
+1090825	
+1090826	
+1090827	
+1090828	
+1090829	
+1090830	
+1090831	While in inventory, allows to use R99 equipment with no penalty.
+1090832	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Resurrection Device" available: With the device's power, you can use a Blessed Resurrection skill. Cooldown is 1 hr. Final stage.
+1090833	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Ninja's Hide" available: For 30 sec., you're invisible and safe from unprovoked monsters. Effect cancelled if you attack. Speed - 10%. Cooldown is 1 hr. Final stage.
+1090834	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new active skill "Rainbow Warrior's Recovery" available: With Rainbow Warrior's blessing, recovers 100% HP and 30% CP. Non-battle only. Cooldown is 1 hr. Final stage.
+1090835	Changing appearance of all 4 parts: Top, Pants, Gloves, Boots - makes a new passive skill "Special Ops' Experience" available: With the wisdom of an experienced soldier, Critical Rate increases in dire situations. Final stage.
+1090836	
+1090837	
+1090838	
+1090839	
+1090840	
+1090841	
+1090842	
+1090843	
+1090844	
+1090845	
+1090846	
+1090847	
+1090848	
+1090849	
+1090850	
+1090851	
+1090852	The effect stacks with SP Runes, XP Runes I/II/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes III.
+1090853	The effect stacks with SP Runes, XP Runes I/II/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes III.
+1090854	The effect stacks with XP Runes I/II/III/IV and buffs. The effect doesn't stack with runes of the same type - SP Runes.
+1090855	The effect stacks with XP Runes I/II/III/IV and buffs. The effect doesn't stack with runes of the same type - SP Runes.
+1090856	The effect stacks with Prestige Runes. The effect doesn't stack with runes of the same type - Maphr's Runes.
+1090857	The effect stacks with Prestige Runes. The effect doesn't stack with runes of the same type - Maphr's Runes.
+1090858	The effect stacks with SP Runes, XP Runes I/III/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes II. Available for characters of levels 1 to 95 inclusively.
+1090859	The effect stacks with SP Runes, XP Runes I/III/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes II. Available for characters of levels 1 to 95 inclusively.
+1090860	The effect of Prestige Rune stacks with the effect of Maphr's Rune.
+1090861	The effect of Prestige Rune stacks with the effect of Maphr's Rune.
+1090862	
+1090863	
+1090864	
+1090865	
+1090866	
+1090867	
+1090868	
+1090869	
+1090870	
+1090871	
+1090872	
+1090873	
+1090874	
+1090875	
+1090876	
+1090877	
+1090878	
+1090879	
+1090880	
+1090881	
+1090882	
+1090883	
+1090884	
+1090885	
+1090886	
+1090887	
+1090888	
+1090889	
+1090890	
+1090891	
+1090892	
+1090893	
+1090894	
+1090895	
+1090896	
+1090897	
+1090898	
+1090899	
+1090900	
+1090901	
+1090902	
+1090903	
+1090904	
+1090905	
+1090906	
+1090907	
+1090908	
+1090909	
+1090910	
+1090911	
+1090912	
+1090913	
+1090914	
+1090915	
+1090916	
+1090917	
+1090918	
+1090919	
+1090920	
+1090921	
+1090922	
+1090923	
+1090924	
+1090925	
+1090926	
+1090927	
+1090928	
+1090929	
+1090930	
+1090931	Assassin's Bamboo Hat time limit will start ticking down right after purchase.
+1090932	
+1090933	
+1090934	
+1090935	
+1090936	
+1090937	
+1090938	
+1090939	
+1090940	This stone can only be used for modifying items with common Scroll of Enchant (R-grade).
+1090941	This stone can only be used for modifying items with common Scroll of Enchant (R-grade).
+1090942	This stone can only be used for modifying items with common Scroll of Enchant (R-grade).
+1090943	This stone can only be used for modifying items with common Scroll of Enchant (R-grade).
+1090944	This stone can only be used for modifying items with Blessed Scroll of Enchant (R-grade).
+1090945	This stone can only be used for modifying items with Blessed Scroll of Enchant (R-grade).
+1090946	This stone can only be used for modifying items with Blessed Scroll of Enchant (R-grade).
+1090947	This stone can only be used for modifying items with Blessed Scroll of Enchant (R-grade).
+1090948	This stone can only be used for modifying items with Giant's Scroll of Enchant (R-grade).
+1090949	This stone can only be used for modifying items with Giant's Scroll of Enchant (R-grade).
+1090950	
+1090951	
+1090952	
+1090953	
+1090954	
+1090955	
+1090956	
+1090957	
+1090958	
+1090959	
+1090960	
+1090961	
+1090962	
+1090963	
+1090964	
+1090965	
+1090966	
+1090967	
+1090968	
+1090969	
+1090970	
+1090971	
+1090972	Assassin's Bamboo Hat time limit will start ticking down right after purchase.
+1090973	Assassin's Bamboo Hat time limit will start ticking down right after purchase.
+1090974	
+1090975	
+1090976	
+1090977	
+1090978	
+1090979	
+1090980	
+1090981	
+1090982	
+1090983	
+1090984	
+1090985	
+1090986	
+1090987	
+1090988	
+1090989	
+1090990	
+1090991	
+1090992	
+1090993	While in inventory, allows to use R99 equipment with no penalty.
+1090994	The effect stacks with SP Runes, XP Runes I/III/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes II. Available for characters of levels 1 to 95 inclusively.
+1090995	The effect stacks with SP Runes, XP Runes I/III/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes II. Available for characters of levels 1 to 95 inclusively.
+1090996	The effect stacks with SP Runes, XP Runes I/II/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes III.
+1090997	The effect stacks with SP Runes, XP Runes I/II/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes III.
+1090998	The effect stacks with XP Runes I/II/III/IV and buffs. The effect doesn't stack with runes of the same type - SP Runes.
+1090999	The effect stacks with XP Runes I/II/III/IV and buffs. The effect doesn't stack with runes of the same type - SP Runes.
+1091000	The effect stacks with Prestige Runes. The effect doesn't stack with runes of the same type - Maphr's Runes.
+1091001	The effect stacks with Prestige Runes. The effect doesn't stack with runes of the same type - Maphr's Runes.
+1091002	Most of the items cannot be traded/sold. Read more about the items on our forum: https://4ga.me/l2eustartpack .
+1091003	Most of the items cannot be traded/sold. Read more about the items on our forum: https://4ga.me/l2eustartpack .
+1091004	Most of the items cannot be traded/sold. Read more about the items on our forum: https://4ga.me/l2eustartpack .
+1091005	
+1091006	The effect stacks with SP Runes, XP Runes II/III/IV and buffs. The effect doesn't stack with runes of the same type - XP Runes I.
+1091007	
+1091008	
+1091009	
+1091010	
+1091011	
+1091012	
+1091013	
+1091014	
+1091015	
+1091016	
+1091017	
+1091018	
+1091019	
+1091020	
+1091021	
+1091022	
+1091023	
+1091024	
+1091025	
+1091026	
+1091027	
+1091028	
+1091029	

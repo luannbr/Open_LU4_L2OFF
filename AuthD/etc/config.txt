@@ -1,0 +1,576 @@
+; Portable AuthD default configuration.
+;
+; All outbound platform/NCSoft services and both SMTP paths are disabled.
+; Enabling one is an explicit deployment decision: set its Use* switch and a
+; locally controlled address. No external address is supplied by this file.
+
+; Portable diagnostic verbosity: 0=omit DEBUG, 1=include DEBUG (legacy default).
+; Does not suppress accounting records. Applied after parsing this file.
+; Diagnostic verbosity: 0 omits DEBUG records, 1 includes them. Accounting records are unaffected.
+DebugLogging = 1
+
+; Startup interface: console (default) or gui (Windows only).
+UserInterface = "console"
+
+; Listener ports kept from the selected Lineage 2 deployment.
+; Shipping: 2104
+; TCP listener port for the main server connection interface. 0 is the loader default, so
+; deployments should set a usable port.
+serverPort = 2104
+; Shipping: 2110
+; TCP listener port for the extended AuthD interface used by AuthGateD. Must match AuthGateD
+; authPort.
+serverExPort = 2110
+; Shipping: 2108
+; TCP listener port for AuthD's internal service interface.
+serverIntPort = 2109
+; Shipping: 10062
+; TCP listener port for AuthD's MI/administrative service interface.
+serverMiPort = 10062
+; Shipping spelling worldport: 7777
+; Game-world TCP port advertised/used by the authentication server-list path. Must match the game
+; listener.
+WorldPort = 7777
+
+; Shipping: 64
+; Number of connections in AuthD's database pool. Each consumes a PostgreSQL session.
+DBConnectionNum = 8
+; Shipping: 64
+; Number of AuthD server worker threads.
+numServerThread = 8
+; Shipping: 4
+; Number of AuthD internal-interface worker threads.
+numServerIntThread = 2
+; Shipping: 180
+; Socket inactivity timeout in seconds. Converted to milliseconds by AuthD.
+SocketTimeOut = 180
+; Shipping: 255
+; Maximum socket count accepted by the service's connection limiting logic.
+SocketLimit = 255
+; Shipping: 4
+; Number of outstanding accept operations used by the listener.
+AcceptCallNum = 4
+
+; Shipping: "C:\\Users\\JohnDoe\\Desktop\\AuthD\\etc"
+; Directory for service log files. Relative paths use the process working directory.
+logDirectory = "log"
+; Shipping: 8
+; Game/service identity used by authentication and billing integrations.
+GameID = 8
+; Affiliated game identity used by cross-game account integrations. 0 is the default.
+AffiliatedGameID = 0
+; Shipping spelling vmGameId: 99
+; Virtual-game identity used by AuthD. If absent, inherits GameID.
+vmGameID = 8
+; Shipping: 50721
+; Expected authentication protocol version. Must match the selected peer/client protocol.
+ProtocolVersion = 50721
+; Shipping: 3
+; Packet length/framing mode for the authentication transport. Must agree with peers.
+PacketSizeType = 3
+; Shipping: 0
+; Numeric region code used by localization and regional gameplay/account policies. 0 selects
+; Korea.
+CountryCode = 0
+
+; Read the world list from etc/serverlist beside this file instead of the authd.server table.
+; One world per line, no comments or empty lines:
+; id,name,inner_ip,ip,age_limit,kind,pk_flag,port,region
+; inner_ip is the address that L2Server connects from. ip and port are sent to game clients.
+; The bundled file has world 1 with AuthD, L2Server and the client on this computer.
+; Set false to use the authd.server table (AuthD/sql/tools/register_server.sql).
+ReadLocalServerList = true
+; Shipping: false
+; Enable the one-time logout policy in account/session handling.
+OneTimeLogOut = false
+; Shipping: true
+; Enable the account user-data integration used during authentication/session handling.
+UserData = true
+; Permit the configured outer/development-server connection branch.
+DevConnectOuter = false
+; Dump packet diagnostics. Can produce large logs containing client/account payloads.
+DumpPacket = false
+; Shipping: 32767
+; Authentication packet-log bit mask. 0 disables it. L2Server uses a boolean option of the same
+; name.
+UsePacketLog = 0
+; Legacy local spelling. The case-sensitive reader uses useDualLog below.
+; Ignored legacy spelling: AuthD keys are case-sensitive. Use useDualLog.
+UseDualLog = false
+; Shipping: false
+; Enable the account usage log stream.
+useUserUseLog = false
+
+; PostgreSQL/libpq conninfo. Change credentials/database for the deployment.
+; The three environments may point at one database, as in this safe default.
+; libpq connection string for game-account storage. Set the database role and credentials for this
+; deployment.
+gameAccountDBconnStr = "host=127.0.0.1 port=5433 dbname=authd user=postgres password=CHANGE_ME"
+; libpq connection string for secure-service account data. May use the same physical database as
+; gameAccountDBconnStr.
+secureServiceDBconnStr = "host=127.0.0.1 port=5433 dbname=authd user=postgres password=CHANGE_ME"
+; libpq connection string for the global-account/NCS database route (environment 2). It may share
+; a physical database with the other AuthD routes.
+GloActNcsConn = "host=127.0.0.1 port=5433 dbname=authd user=postgres password=CHANGE_ME"
+
+; Outbound services: disabled by default.
+; Shipping: false
+; Legacy local spelling. The case-sensitive reader uses uselogd below.
+; Ignored legacy spelling: AuthD keys are case-sensitive. Use uselogd.
+UseLogD = false
+; Shipping: false
+; Connect to the external IP-based billing/service peer configured by IPServer and IPPort.
+UseIPServer = false
+; Shipping: true
+; Enable the PA authentication/platform peer connections configured by PAConnectionCount and
+; PAIP/PAPort.
+UsePAServer = false
+; Shipping: false
+; Enable the PB authentication/platform peer configured by PBServerIP and PBServerPort.
+UsePBServer = false
+; Shipping: false
+; Enable the WSM web-session peer configured by WSMIP and WSMPort.
+UseWSM = false
+; Shipping spelling UseGPProxy: false
+; Enable GPProxy connections configured by GpProxyConnectionCount and GPProxyIP/Port.
+UseGpProxy = false
+; Shipping: false
+; Enable the account-grade peer configured by GradeServerIP and GradeServerPort.
+useGradeServer = false
+; Enable the iovation/device-check proxy integration.
+useIovationProxy = false
+; Enable the light-token authentication service connection.
+useLightTokenServer = false
+; Enable the external fatigue provider. Requires a matching provider library and
+; deployment-specific provider configuration.
+UseExternalFatigueSystem = false
+
+; MailReport and SendMail remain recovered but dormant. In particular, no
+; mailServer/mailFrom/mailTo values are present, so legacy SMTP cannot start.
+; If only useReportMail is accidentally flipped, the newer reporter still
+; targets an unprivileged loopback port rather than an external SMTP host.
+; Shipping: true
+; Enable report-mail delivery using reportMailServer/Port/From/To. Separate from legacy system
+; mail settings.
+useReportMail = false
+; Shipping: smtp.game.ncsoft
+; SMTP host used by report-mail delivery when useReportMail is enabled.
+reportMailServer = "127.0.0.1"
+; Shipping: 25
+; TCP port of the report-mail SMTP server.
+reportMailPort = 2525
+; Shipping: ServicePlatform_LiveMonitoring@ncsoft.com
+; Sender email address for report mail. Used only when report mailing is enabled.
+reportMailFrom = "authd@localhost"
+; Shipping: ServicePlatform_LiveMonitoring@ncsoft.com
+; Recipient email address/list accepted by the report-mail implementation.
+reportMailTo = "operator@localhost"
+
+; Local account/password path. No portal/billing/security peer is required.
+; Create missing local PostgreSQL accounts on password login. Defaults to true.
+; Names: 1..14 lowercase ASCII letters, digits or underscores. Passwords: 1..16 printable ASCII bytes.
+; Existing accounts keep their password. Portal and token login never create accounts.
+AutoCreateAccounts = true
+; Shipping: false
+; Legacy local spelling. The case-sensitive reader uses useNpSecAuth below.
+; Enable the NP secondary-authentication integration.
+UseNpSecAuth = false
+; Read the account OTP status from the database during secondary-authentication handling.
+checkOtpStatusFromDb = false
+; Shipping: true
+; Read the account TAS status from the database during secondary-authentication handling.
+checkTasStatusFromDb = false
+; Shipping: true
+; Enable the no-billing policy path.
+useNoBill = true
+; Shipping: 1
+; Select the legacy free-server billing policy. Code default is 1.
+FreeServer = 1
+; Enable lobby-session charging behavior.
+useLobbyCharging = false
+; Shipping: true
+; Enable the dual-charging billing path.
+useDualCharging = false
+; Legacy local spelling. The case-sensitive reader uses UseSuspendCharge below.
+; Use suspended-charge state in billing/account policy.
+useSuspendCharge = false
+; Portable peer compatibility: suppress opcode 44, unsupported by this L2Server.
+; Independent of the useDualCharging/useLobbyCharging switches above.
+; Enable the portable compatibility adapter for the current L2Server authentication wire contract.
+; code default is false.
+CurrentL2ServerCompatibility = true
+
+; The paired current AuthGateD sends the extended 64-byte account and
+; 32-byte password carrier. The selected AuthD default is the older 14+16
+; carrier, so both products must agree on the current format.
+; Shipping: true
+; Enable extended account information on the game-client side of authentication.
+useGCSideExtendAccount = false
+
+; Shipping: false
+; Enable legacy security-card authentication checks.
+UseSecurityCard = false
+; Shipping: false
+; Enforce the configured under-age play-time window.
+UseUnderAgeTimeLimit = false
+; Shipping: true
+; Apply the configured forbidden-server access policy.
+UseForbiddenServerSetting = false
+; Shipping: true
+; Use the dormant-account flag in account policy checks.
+UseDormantFlag = false
+; Shipping: false
+; Enable the internal fatigue/play-time policy.
+UseFatigueSystem = false
+; Enable time/experience-zone policy. Requires a valid ExpCapsuleList and positive
+; TimeExpZoneCount.
+UseTimeExpZone = false
+; Shipping: false
+; Enable account play-time limit enforcement.
+useUserPlayTimeLimit = false
+; Shipping: false
+; Enable child-account usage restrictions.
+useChildUsageCheck = false
+; Shipping: false
+; Enable character/account level checks in authentication policy.
+useLevelCheck = false
+
+; Shipping: true
+; Enable the account-ban policy.
+UseBanAccount = true
+; Shipping: false
+; Kick an in-game account when the account-ban policy requires it.
+UseAccountBanGameKick = true
+; Shipping: true
+; Support activation of sleeping/dormant accounts through the authentication flow.
+supportSleepAccountActivate = true
+; Shipping: false
+; Enable the legacy account/session reconnect support path.
+supportReconnect = true
+; Shipping: true
+; Enable automatic removal of an existing account session according to the login policy.
+AutoKickAccount = true
+
+; Shipping: false
+; Enable the special GM-check policy in authentication.
+GMCheckMode = false
+; Shipping: true
+; Restrict GM access using the configured GMIP check.
+RestrictGMIP = false
+; Shipping: 0
+; Per-IP access limit used by AuthD's admission policy. 0 is the code default.
+IPAccessLimit = 0
+; Per-game-server IP-count limit used by admission checks. 0 is the default.
+limitIPNumforEachGS = 0
+; Enable the configuration's service-mode flag. OS service installation/startup is a separate
+; operation.
+serviceMode = false
+
+; Shipping: DBC801AB-1E9E-AAEB-AB35-B96025A4F7C3
+; Application GUID used by platform integration. Absent means the zero GUID.
+AppId = "{00000000-0000-0000-0000-000000000000}"
+; Shipping: C387F81D-58E3-9097-940A-104BCBB06E55
+; Client application GUID used by platform integration. Absent means the zero GUID.
+ClientAppId = "{00000000-0000-0000-0000-000000000000}"
+; Shipping: 7696DB6E-5F31-B863-BFAC-587F8C044D68
+; AuthD application GUID used by platform integration. Absent means the zero GUID.
+AuthdAppId = "{00000000-0000-0000-0000-000000000000}"
+
+; Optional PostgreSQL startup migrations, before database pools are created.
+; Relative paths start beside this config.txt. Point to the deployed AuthD/sql.
+; Empty disables migrations. Each initialized database environment is covered.
+; AuthD SQL migration directory, relative to this config file when not absolute. Missing or empty
+; disables automatic migrations.
+migrationsDirectory = "../sql"
+; Create a missing database before its migrations run. The connection user needs the CREATEDB
+; privilege. Missing or false requires an existing database.
+createDatabase = true
+
+; Remaining current-reader defaults and optional entries.
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional development-server address. Missing means no configured address. Do not replace missing
+; with an empty string automatically.
+; DevServerIP = ""
+; Shipping: 0,1,3,2
+; Exactly four comma-separated billing priority IDs. Default order is 1,0,2,3. Keep four entries
+; to match the fixed array.
+ChargePriority = "1,0,2,3"
+; Shipping: 10.10.100.99
+; IPv4 address of the IP billing peer. Used when UseIPServer is enabled.
+IPServer = "0.0.0.0"
+; Shipping: 3113
+; TCP port of the IP billing peer.
+IPPort = 0
+; Shipping: 60
+; IP billing peer reconnect interval in seconds.
+IPInterval = 0
+; Shipping spelling UseLogD: false
+; Enable the LogD connection in AuthGateD.
+uselogd = false
+; Shipping: 10.30.3.31
+; IPv4 address of the LogD peer used by AuthD when uselogd is enabled.
+logdip = "0.0.0.0"
+; Shipping: 3999
+; TCP port of AuthGateD's LogD peer.
+logdport = 0
+; Shipping: 1200
+; Reconnect interval for AuthD's LogD peer in seconds.
+logdconnectinterval = 60
+; Shipping: 127.0.0.1
+; IPv4 address used by RestrictGMIP. Absent resolves to 0.0.0.0.
+GMIP = "0.0.0.0"
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional legacy SMTP host. Absence keeps the legacy mail transport unconfigured. Empty is not
+; equivalent to absence.
+; mailServer = ""
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional sender for legacy SMTP mail. Leave absent when legacy mail is unused.
+; mailFrom = ""
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional recipient for legacy SMTP mail. Leave absent when legacy mail is unused.
+; mailTo = ""
+; Shipping spelling newEncrypt: 1
+; Select the legacy authentication encryption mode. Must agree with the corresponding peer
+; protocol.
+NewEncrypt = 0
+; Shipping: false
+; Continue the configured billing behavior while a game server is reported down.
+chargeWhenServerDown = false
+; Failure-count threshold for security authentication checks.
+securityFailureCount = 0
+; Shipping: false
+; Enable the security-card deprecation behavior in account authentication.
+deprecateSecurityCard = false
+; Starting hour of the under-age restriction window.
+underAgeTimeLimitFrom = 0
+; Ending hour of the under-age restriction window.
+underAgeTimeLimitTo = 0
+; Shipping: false
+; Enable the special multi-client policy for PC-cafe accounts.
+UseMultiClientForPCCafeOption = false
+; Shipping: 0
+; Default preferred server ID in server-list ordering. 0 is the default.
+DefaultTopServer = 0
+; Shipping spelling useNotifyCSResult: false
+; Enable forwarding of the client-security result through the authentication protocol.
+UseNotifyCSResult = false
+; Shipping: 127.0.0.1
+; IPv4 address of the PB service. Used only when UsePBServer is enabled.
+PBServerIP = "0.0.0.0"
+; Shipping: 3000
+; TCP port of the PB service.
+PBServerPort = 3000
+; Shipping: 60
+; PB peer reconnect interval in seconds.
+PBSReconnectInterval = 60
+; Numeric PB integration mode. 1 is the code default.
+PBType = 1
+; Shipping: 3
+; Maximum retry count used by OTP authentication handling.
+OTPRetryCount = 3
+; Protocol flag value identifying a supplied OTP answer.
+OTPAnswerInputedFlag = 0
+; Protocol value used for the unassigned-OTP state.
+OTPNotAssignedValue = 0
+; Shipping: 2
+; Number of PA connections. One uses PAIP/PAPort. Multiple connections use PAIP_1/PAPort_1 and
+; later indices.
+PAConnectionCount = 1
+; IPv4 address used for the single PA connection when PAConnectionCount is 1.
+PAIP = "0.0.0.0"
+; TCP port used for the single PA connection when PAConnectionCount is 1.
+PAPort = 10057
+; Shipping: 60
+; PA peer reconnect interval in seconds.
+PAReconnectInterval = 60
+; Shipping: 10.71.2.69
+; IPv4 address of the WSM web-session service.
+WSMIP = "0.0.0.0"
+; Shipping: 10051
+; TCP port of the WSM web-session service.
+WSMPort = 10051
+; Shipping: 10
+; WSM peer reconnect interval in seconds.
+WSMReconnectInterval = 60
+; Shipping spelling GPProxyConnectionCount: 4
+; Number of GPProxy connections. One uses unsuffixed GPProxyIP/Port. Larger counts use indices
+; starting at 1.
+GpProxyConnectionCount = 1
+; Shipping: 10
+; GPProxy reconnect interval in seconds.
+GPProxyReconnectInterval = 10
+; Shipping spelling UseNpSecAuth: false
+; Enable the NP secondary-authentication integration.
+useNpSecAuth = true
+; Shipping: false
+; Skip the remaining secondary-authentication step when OTP has already succeeded.
+ForceSkipSecAuthIfOTPPassed = false
+; Fatigue recovery duration in seconds.
+FatigueRecoveryTime = 18000
+; Age threshold used by the fatigue policy.
+FatigueAffectedAge = 0
+; Concurrent-play limit used by the fatigue policy.
+FatigueConcurrentPlayLimit = 10
+; Company identity passed to the external fatigue provider.
+ExternalFatigueCompanyCode = 1
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional external fatigue provider library path. Missing means no library configured.
+; ExternalFatigueDllName = ""
+; Number of worker threads requested for the external fatigue provider.
+ExternalFatigueWorkThreadCount = 64
+; Reset time-exp capsules when the time/experience-zone policy requires it.
+ResetTimeExpZoneCapsule = true
+; Number of time/experience zones. Maximum 4. Nonpositive values disable zones and capsule resets.
+TimeExpZoneCount = 2
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional time-exp capsule definition list. Missing disables the dependent zone feature. Empty is
+; not a substitute for a valid list.
+; ExpCapsuleList = ""
+; Disable the FIDO authentication branch when true.
+FidoDisabled = false
+; Shipping: "false."
+; Skip remaining secondary authentication after a successful FIDO check.
+ForceSkipSecAuthIfFIDOPassed = false
+; Shipping: "false."
+; Skip remaining secondary authentication after a successful device check.
+ForceSkipSecAuthIfDevicePassed = false
+; Enable the authentication service's test-server policy.
+useTestServer = false
+; Include/use package version information in authentication handling.
+UsePackageVersionInfo = false
+; Shipping: true
+; Use suspended-charge state in billing/account policy.
+UseSuspendCharge = true
+; Shipping: true
+; Enable extended account information on the PA-service side of authentication.
+usePASideExtendAccount = false
+; Portable: the European (4game) client of this release closes on a wrong
+; password (reasons 2 and 3) unless its SystemMsg-eu.dat is fixed with
+; tools/client/patch_systemmsg.py. true sends reason 5 ("Incorrect account
+; information") instead, for clients without that fix.
+UnpatchedEuClientLoginFail = false
+; Portable: login of the LU4 (Liberta Ultimata 4) client, next to the usual
+; one. Needs lu4Port in AuthGateD\etc\config.txt and lu4authhook.dll injected
+; into the client, which sends the typed account and password to
+; 127.0.0.1:Lu4ValidatorPort.
+Lu4Mode = true
+Lu4ValidatorPort = 27110
+; Age threshold for the scheduled shutdown/curfew policy.
+shutdownAge = 0
+; Starting hour of the scheduled shutdown/curfew window.
+shutdownBeginHour = 0
+; Ending hour of the scheduled shutdown/curfew window.
+shutdownEndHour = 0
+; Shipping: true
+; Enable extended authentication packet handling. Requires compatible peers.
+useExtendPacket = false
+; IPv4 address of the account-grade service.
+GradeServerIP = "0.0.0.0"
+; TCP port of the account-grade service.
+GradeServerPort = 10090
+; Account-grade service reconnect interval in seconds.
+GradeReconnectInterval = 5
+; Shipping: true
+; Allow multiple clients under the free-to-play account policy.
+allowF2PMultiClients = false
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional file containing exempt/whitelisted IPs. Missing means no file is selected.
+; whiteListIPFile = ""
+; Optional: absent by default. Keep commented to keep the null value.
+; Optional service serial identifier. Missing leaves it unconfigured.
+; serialNumber = ""
+; Shipping: true
+; Enable extended web-session lifetime handling.
+extendWebSessionLifeTime = false
+; Shipping: true
+; Enable dual log output. Exact case-sensitive AuthD key.
+useDualLog = false
+; Shipping: false
+; Convert portal/email-style account names using the configured postfix.
+convertPortalEmailAccount = false
+; Optional: absent by default. Keep commented to keep the null value.
+; Shipping: lineage2.plaync.co.kr
+; Optional postfix for portal/email account conversion. Only relevant when conversion is enabled.
+; convertPortalEmailAccountPostfix = ""
+; IPv4 address of the iovation/device-check proxy.
+iovationProxyIPAddress = "0.0.0.0"
+; TCP port of the iovation/device-check proxy.
+iovationProxyPort = 0
+; Reconnect interval for the iovation proxy in seconds.
+iovationProxyConnectInterval = 30
+; Accept clients when obtaining their iovation data fails.
+acceptClientGetIovationFail = false
+; IPv4 address of the light-token authentication service.
+lightTokenServerIPAddress = "0.0.0.0"
+; TCP port of the light-token authentication service.
+lightTokenServerPort = 0
+; Light-token service reconnect interval in seconds.
+lightTokenServerConnectInterval = 30
+; Shipping: true
+; Ignore the corresponding restriction when the IP already has an active charge.
+ignoreWhenIPInCharge = false
+; Shipping: false
+; Represent game-server population using percentage values in the server-list path.
+changeServerListUsersInPercentage = false
+; Shipping: 127.0.0.1
+; Connection 1: IPv4 address for the PA pool. Used when its connection count selects indexed
+; peers.
+PAIP_1 = "0.0.0.0"
+; Shipping: 127.0.0.2
+; Connection 2: IPv4 address for the PA pool. Used when its connection count selects indexed
+; peers.
+PAIP_2 = "0.0.0.0"
+; Shipping: 10057
+; Connection 1: TCP port for the PA pool. Used when its connection count selects indexed peers.
+PAPort_1 = 10057
+; Shipping: 10057
+; Connection 2: TCP port for the PA pool. Used when its connection count selects indexed peers.
+PAPort_2 = 10057
+; IPv4 address of the single GPProxy connection.
+GPProxyIP = "0.0.0.0"
+; Shipping: 10.71.12.61
+; Connection 1: IPv4 address for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyIP_1 = "0.0.0.0"
+; Shipping: 10.71.12.62
+; Connection 2: IPv4 address for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyIP_2 = "0.0.0.0"
+; Shipping: 10.71.12.68
+; Connection 3: IPv4 address for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyIP_3 = "0.0.0.0"
+; Shipping: 10.71.12.69
+; Connection 4: IPv4 address for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyIP_4 = "0.0.0.0"
+; TCP port of the single GPProxy connection.
+GPProxyPort = 20002
+; Shipping: 20002
+; Connection 1: TCP port for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyPort_1 = 20002
+; Shipping: 20002
+; Connection 2: TCP port for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyPort_2 = 20002
+; Shipping: 20002
+; Connection 3: TCP port for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyPort_3 = 20002
+; Shipping: 20002
+; Connection 4: TCP port for the GPProxy pool. Used when its connection count selects indexed
+; peers.
+GPProxyPort_4 = 20002
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; worldport = 7777
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; useNotifyCSResult = false
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; newEncrypt = 1
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; vmGameId = 99
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; UseGPProxy = false
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; GPProxyConnectionCount = 4

@@ -1,0 +1,366 @@
+/* COFF information not part of RC
+   Version major:4 minor:0
+
+   Type: icon
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 1
+   COFF information not part of RC
+   Version major:4 minor:0.  */
+LANGUAGE 9, 1
+/* Code page: 1252.  */
+
+1 3 /* RT_ICON */
+BEGIN
+  0x28L      , 0x20L      , 0x40L      , 0x40001L   , 0x0L       , 0x280L     , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x800000L  , 0x8000L    , 0x808000L  , 0x80L      , 0x800080L  ,
+  0x8080L    , 0x808080L  , 0xc0c0c0L  , 0xff0000L  , 0xff00L    , 0xffff00L  , 0xffL      , 0xff00ffL  ,
+  0xffffL    , 0xffffffL  , 0xfff0ff0L , 0xfff00000L, 0xf0f00fL  , 0xff00fffL , 0xfff0f0fL , 0xf0f0f00fL,
+  0xf0fff0f0L, 0xf0f0f0f0L, 0xfff0f0fL , 0xf0f0f00fL, 0xf0f0f0L  , 0xf0f0f0f0L, 0xf0ff0f0fL, 0xf0000ff0L,
+  0xfff000f0L, 0xf0f0f0f0L, 0xf00f0fL  , 0xfff00ff0L, 0xf0f00fL  , 0xf0f00fffL, 0xffff0f0fL, 0xffffffffL,
+  0xffffffffL, 0xf0f0ffffL, 0xfL       , 0x0L       , 0x0L       , 0xf0000000L, 0xffffff0fL, 0xffffffffL,
+  0xffffffffL, 0xf0ffffffL, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L, 0xff00f0fL , 0xf0f000f0L, 0xf0000f0fL, 0xff00f0f0L,
+  0xff00f0fL , 0xf0f000f0L, 0xffffff0fL, 0xffffffffL, 0xffffffffL, 0xf0ffffffL, 0xf0L      , 0x0L       ,
+  0x0L       , 0xf000000L , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L
+END
+
+/* Name: 2
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+2 3 /* RT_ICON */
+BEGIN
+  0x28L      , 0x10L      , 0x20L      , 0x40001L   , 0x0L       , 0xc0L      , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x800000L  , 0x8000L    , 0x808000L  , 0x80L      , 0x800080L  ,
+  0x8080L    , 0x808080L  , 0xc0c0c0L  , 0xff0000L  , 0xff00L    , 0xffff00L  , 0xffL      , 0xff00ffL  ,
+  0xffffL    , 0xffffffL  , 0xf0f0f00L , 0xf00000L  , 0xf0f0fL   , 0xf0000000L, 0xf0000fL  , 0xf0f00ff0L,
+  0xffff0f0fL, 0xf0f0ffffL, 0xfL       , 0xf0000000L, 0xffffff0fL, 0xf0ffffffL, 0xf0000f0fL, 0xf000f0f0L,
+  0xf0000f0fL, 0xf000f0f0L, 0xf0000f0fL, 0xf000f0f0L, 0xf0000f0fL, 0xf000f0f0L, 0xf0000f0fL, 0xf000f0f0L,
+  0xf0000f0fL, 0xf000f0f0L, 0xf0000f0fL, 0xf000f0f0L, 0xf0000f0fL, 0xf000f0f0L, 0xffffff0fL, 0xf0ffffffL,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L
+END
+
+/* Name: 3
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+3 3 /* RT_ICON */
+BEGIN
+  0x28L      , 0x10L      , 0x20L      , 0x40001L   , 0x0L       , 0xc0L      , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x800000L  , 0x8000L    , 0x808000L  , 0x80L      , 0x800080L  ,
+  0x8080L    , 0x808080L  , 0xc0c0c0L  , 0xff0000L  , 0xff00L    , 0xffff00L  , 0xffL      , 0xff00ffL  ,
+  0xffffL    , 0xffffffL  , 0xf0f00L   , 0xf0f0ffL  , 0xf00f0f0fL, 0xf0f0000fL, 0xf0f0fL   , 0xf0f000f0L,
+  0xffff0f0fL, 0xf0f0ffffL, 0xfL       , 0xf0000000L, 0xffffff0fL, 0xf0ffffffL, 0xf0000f0fL, 0xf0000f0fL,
+  0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL,
+  0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xf0000f0fL, 0xffffff0fL, 0xf0ffffffL,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       , 0x0L       ,
+  0x0L       , 0x0L
+END
+
+/* Type: menu
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 109
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+109 MENU
+BEGIN
+  POPUP "&Service"
+  BEGIN
+    MENUITEM "Crash && Report", 133
+    MENUITEM "E&xit", 105
+  END
+  POPUP "Report"
+  BEGIN
+    MENUITEM "Average Packet Use Rate", 32779
+    MENUITEM "Memory", 32780
+    MENUITEM "Perf", 32783
+    MENUITEM SEPARATOR
+    MENUITEM "ServerAndCacheD Packet", 150
+    MENUITEM "ServerAndCacheD Packet Reset", 151
+    MENUITEM "ServerAndCacheD Packet Rank", 152
+  END
+  POPUP "Log"
+  BEGIN
+    MENUITEM "Connect to LogD", 32774
+    MENUITEM "Show Malloc Log", 32787
+  END
+  POPUP "Profile"
+  BEGIN
+    MENUITEM "Reset Profile", 136
+    MENUITEM "Report Profile", 140
+  END
+  POPUP "Debug"
+  BEGIN
+    MENUITEM "Class Refcount", 32778
+    MENUITEM "Report packet", 142
+    MENUITEM "Toggle packet", 143
+    MENUITEM "Clear packet", 144
+    MENUITEM "PrintCharData", 145
+    MENUITEM "PrintWarehouseData", 146
+    MENUITEM "Create ItemData Table", 32791
+  END
+  POPUP "QS"
+  BEGIN
+    MENUITEM "QsReport", 137
+    MENUITEM "QsSlowReport", 138
+    MENUITEM "ResetQsData", 147
+    MENUITEM "SaveQsReport", 148
+    MENUITEM "SetQsReportTime", 32781
+  END
+  POPUP "View"
+  BEGIN
+    MENUITEM "Status Window", 32789, CHECKED
+  END
+  POPUP "Reload"
+  BEGIN
+    MENUITEM "FileServer INI", 32792
+  END
+END
+
+/* Type: dialog
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 103
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+103 DIALOG 22, 17, 230, 75
+STYLE 0xc800c0
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+  CONTROL 107, 2, 0x82, 0x50000003, 14, 9, 16, 16
+  CONTROL "CacheD Version 1.0", 65535, 130, 0x50020080, 49, 10, 119, 8
+  LTEXT "Copyright (C) 2001", 65535, 49, 20, 119, 8, 0x50020000
+  DEFPUSHBUTTON "OK", 1, 195, 6, 30, 11, 0x50030001
+END
+
+/* Name: 129
+   COFF information not part of RC
+   Version major:4 minor:0.  */
+LANGUAGE 18, 1
+/* Code page: 1252.  */
+
+129 DIALOGEX 0, 0, 187, 99
+STYLE 0x80c000c0
+CAPTION "SQL login"
+FONT 10, "System", 0, 0, 0
+BEGIN
+  DEFPUSHBUTTON "OK", 1, 68, 78, 50, 14, 0x50010001
+  LTEXT "File DB : ", -1, 18, 19, 31, 8, 0x50020000
+  LTEXT "Login Name:", -1, 18, 38, 42, 8, 0x50020000
+  LTEXT "Password:", -1, 18, 56, 35, 8, 0x50020000
+  EDITTEXT 1000, 68, 19, 101, 14, 0x50810080
+  EDITTEXT 1001, 68, 38, 101, 14, 0x50810080
+  EDITTEXT 1003, 68, 56, 101, 14, 0x508100a0
+END
+
+/* Name: 131
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+131 DIALOG 0, 0, 187, 45
+STYLE 0x80c800c0
+CAPTION "Character Name"
+FONT 10, "System"
+BEGIN
+  DEFPUSHBUTTON "OK", 1, 130, 7, 50, 14, 0x50010001
+  PUSHBUTTON "Cancel", 2, 130, 24, 50, 14, 0x50010000
+  EDITTEXT 1004, 7, 15, 118, 12, 0x50810080
+END
+
+/* Name: 142
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+142 DIALOGEX 0, 0, 248, 118
+STYLE 0x80c800c8
+CAPTION "CacheD Serial Key"
+FONT 8, "MS Shell Dlg", 400, 0, 1
+BEGIN
+  DEFPUSHBUTTON "OK", 1, 187, 33, 50, 14, 0x50010001
+  PUSHBUTTON "Cancel", 2, 187, 50, 50, 14, 0x50010000
+  LTEXT "Serial Key", -1, 18, 15, 32, 8, 0x50020000
+  EDITTEXT 1011, 16, 30, 161, 57, 0x50810084
+END
+
+/* Name: 145
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+145 DIALOGEX 0, 0, 340, 26
+STYLE 0x80c800c8
+CAPTION "Direct Command"
+FONT 8, "MS Shell Dlg", 400, 0, 1
+BEGIN
+  EDITTEXT 1014, 7, 7, 284, 13, 0x50810080
+  DEFPUSHBUTTON "OK", 1, 295, 7, 38, 13, 0x50010001
+END
+
+/* Name: 149
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+149 DIALOGEX 0, 0, 166, 77
+STYLE 0x80c800c8
+CAPTION "QsCheckTime (0 ~ 59)"
+FONT 8, "MS Shell Dlg", 400, 0, 1
+BEGIN
+  EDITTEXT 1012, 7, 31, 152, 18, 0x50813080
+  DEFPUSHBUTTON "OK", 1, 7, 56, 50, 14, 0x50010001
+  PUSHBUTTON "Cancel", 2, 109, 56, 50, 14, 0x50010000
+  LTEXT "Input 0 - 59 to start QSChekTimer\nInput over 60 to stop QSCheckTimer", -1, 7, 7, 152, 19, 0x50020000
+END
+
+/* Type: stringtable
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 7
+   COFF information not part of RC
+   Version major:4 minor:0.  */
+LANGUAGE 9, 1
+/* Code page: 1252.  */
+
+STRINGTABLE
+BEGIN
+  103, "CacheD"
+  104, "CacheD - DEBUG"
+  105, "CacheD - RELEASE"
+  106, "Hello World!"
+  109, "CACHED"
+END
+
+/* Type: accelerators
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 109
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+109 ACCELERATORS
+BEGIN
+  "?", 104, ALT
+  "/", 104, ALT
+END
+
+/* Type: group icon
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 107
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+107 14 /* RT_GROUP_ICON */
+BEGIN
+   0, 1, 2,	 /* Has 2 elements.  */
+    /* "width height colors pad", planes, bits, bytes, index.  */
+    "\040\040\020\000", 1, 4, 0x2e8L, 1,	/* Element no 1.  */
+    "\020\020\020\000", 1, 4, 0x128L, 2	/* Element no 2.  */
+END
+
+/* Name: 108
+   COFF information not part of RC
+   Version major:4 minor:0
+   Code page: 1252.  */
+
+108 14 /* RT_GROUP_ICON */
+BEGIN
+   0, 1, 1,	 /* Has 1 elements.  */
+    /* "width height colors pad", planes, bits, bytes, index.  */
+    "\020\020\020\000", 1, 4, 0x128L, 3	/* Element no 1.  */
+END
+
+/* Type: version
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 1
+   COFF information not part of RC
+   Version major:4 minor:0.  */
+LANGUAGE 18, 1
+/* Code page: 1252.  */
+
+1 VERSIONINFO
+ FILEVERSION 1, 0, 0, 1803
+ PRODUCTVERSION 1, 0, 0, 1803
+ FILEFLAGSMASK 0x3f
+ FILEOS 0x40004
+ FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041204b0"
+    BEGIN
+      VALUE "CompanyName", "L2OFFSources"
+      VALUE "FileDescription", "CacheD, Lineage II cache server"
+      VALUE "FileVersion", "1,0,0,1803"
+      VALUE "InternalName", "Cached.exe"
+      VALUE "LegalCopyright", "Copyright (C) 2014"
+      VALUE "OriginalFilename", "Cached.exe"
+      VALUE "ProductName", "CacheD"
+      VALUE "ProductVersion", "1,0,0,1803"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x412, 1200
+  END
+END
+
+/* Type: 24
+   COFF information not part of RC
+   Version major:4 minor:0
+
+   Name: 1
+   COFF information not part of RC
+   Version major:4 minor:0.  */
+LANGUAGE 9, 1
+/* Code page: 1252.  */
+
+1 24 /* RT_MANIFEST */
+BEGIN
+  "<assembly xmlns=""urn:schemas-microsoft-com:asm.v1"" manifestVersion=""1.0"">\r\n"
+  "  <trustInfo xmlns=""urn:schemas-microsoft-com:asm.v3"">\r\n"
+  "    <security>\r\n"
+  "      <requestedPrivileges>\r\n"
+  "        <requestedExecutionLevel level=""asInvoker"" uiAccess=""false""></requestedExecutionLevel>\r\n"
+  "      </requestedPrivileges>\r\n"
+  "    </security>\r\n"
+  "  </trustInfo>\r\n"
+  "</assembly>"
+END

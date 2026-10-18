@@ -1,0 +1,135 @@
+; AuthGateD portable deployment baseline for the selected CLIENT162 suite.
+; AuthD is the one enabled outbound peer and is loopback-only by default.
+; Portable active diagnostics: 0=omit DEBUG, 1=include DEBUG (existing default).
+; Does not enable shipping LogDbg/LogDbgT no-ops or suppress logd/bot records.
+; Diagnostic verbosity: 0 omits DEBUG records, 1 includes them. Accounting records are unaffected.
+DebugLogging = 1
+
+; Shipping: 2106
+; TCP listener port for the main server connection interface. 0 is the loader default, so
+; deployments should set a usable port.
+serverPort = 2106
+; Shipping: 127.0.0.1
+; IPv4 address of AuthD's extended listener. AuthGateD connects to this peer.
+authAddr = "127.0.0.1"
+; Shipping: 2110
+; AuthD extended listener port. Match AuthD serverExPort.
+authPort = 2110
+; Delay between AuthGateD attempts to reconnect to AuthD, in seconds.
+authReconnectInterval = 5
+
+; Shipping: 32
+; Number of AuthGateD service worker threads.
+numThread = 32
+; Shipping: 96
+; Number of AuthGateD network I/O threads.
+numIOThread = 8
+; Shipping: 200
+; Number of outstanding accept operations used by the listener.
+acceptCallNum = 200
+; Shipping: 1000
+; Maximum socket count accepted by the service's connection limiting logic.
+socketLimit = 1000
+; Shipping: 5
+; Authentication-session timeout in seconds.
+sessionTimeout = 5
+
+; Shipping: false
+; Apply AuthGateD's forbidden-IP admission list.
+useForbiddenIPList = false
+; Shipping: log
+; Directory for service log files. Relative paths use the process working directory.
+logDirectory = "log"
+; Shipping: false
+; Dump packet diagnostics. Can produce large logs containing client/account payloads.
+dumpPacket = false
+
+; Shipping: 60
+; Time window in seconds used to count repeated connection/login attempts.
+tryInterval = 60
+; Shipping: 20
+; Attempt-count threshold for throttling. Must be less than 63 or AuthGateD rejects the
+; configuration.
+tryCount = 20
+; Shipping: 120
+; Blocking duration in seconds after the attempt threshold is reached.
+tryBlockInterval = 120
+
+; Shipping: false
+; Enable GameGuard authentication support in AuthGateD.
+useGameGuard = false
+; Shipping: false
+; Enforce GameGuard result checks in AuthGateD.
+checkGameGuard = false
+; Shipping: false
+; Enable forwarding of the client-security result through the authentication protocol.
+useNotifyCSResult = false
+; Shipping spelling ggNUMActive: 50
+; GameGuard active-query setting passed to the GameGuard integration.
+ggNumActive = 50
+; Enable periodic GameGuard update requests.
+ggUseUpdateTimer = false
+; Shipping: 2
+; Numeric GameGuard logging setting passed to the integration. 0 disables its log option.
+ggUseLog = 0
+; Shipping: true
+; Log invalid GameGuard results.
+ggLogInvalid = false
+; Upper bound in seconds for AuthGateD's connection penalty.
+maxPenaltySeconds = 120
+
+; Enable the LogD connection in AuthGateD.
+useLogd = false
+; IPv4 address of AuthGateD's LogD peer.
+logdAddr = "127.0.0.1"
+; Shipping spelling logdport: 3999
+; TCP port of AuthGateD's LogD peer.
+logdPort = 3999
+
+; Shipping: 2
+; Numeric login-flow mode used by AuthGateD. Must match the chosen client/authentication
+; deployment.
+loginType = 2
+; Shipping: 4,3
+; Comma-separated numeric company codes accepted by the login flow. Stored in the fixed
+; three-entry list.
+companyCode = "4,3"
+; Delay used by the application-launch ban policy, in seconds.
+appLaunchBanDelay = 5
+; Shipping: true
+; Enable extended account information on the game-client side of authentication.
+useGCSideExtendAccount = false
+
+; Portable: port of the LU4 (Liberta Ultimata 4) client login; 0 disables it.
+; serverPort keeps serving the usual client. Needs etc\lu4_auth_key.bin,
+; Lu4Mode in AuthD\etc\config.txt and lu4authhook.dll injected into the
+; client. The LU4 client connects to 185.29.255.102:2108; the local netsh
+; portproxy sends that port here.
+lu4Port = 2107
+
+; The historical deployment named an NCSoft SMTP host. The portable runnable
+; configuration carries no external destination.
+; Shipping: false
+; Enable report-mail delivery using reportMailServer/Port/From/To. Separate from legacy system
+; mail settings.
+useReportMail = false
+; Shipping: smtp.game.ncsoft
+; SMTP host used by report-mail delivery when useReportMail is enabled.
+reportMailServer = "127.0.0.1"
+; Shipping: 25
+; TCP port of the report-mail SMTP server.
+reportMailPort = 25
+; Shipping: ServicePlatform_LiveMonitoring@ncsoft.com
+; Sender email address for report mail. Used only when report mailing is enabled.
+reportMailFrom = "authgated@localhost"
+; Shipping: ServicePlatform_LiveMonitoring@ncsoft.com
+; Recipient email address/list accepted by the report-mail implementation.
+reportMailTo = "authgated@localhost"
+
+; Remaining current-reader defaults and optional entries.
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; logdip = 127.0.0.1
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; logdport = 3999
+; Shipping-only entry: no matching reader/default in the current configuration owner.
+; ggNUMActive = 50

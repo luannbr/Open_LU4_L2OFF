@@ -1,0 +1,4 @@
+# Database passwords stay local: these configs are committed with password=CHANGE_ME.
+AuthD/etc/config.txt filter=dbpassword
+CacheD/etc/cached-postgresql.ini filter=dbpassword
+CacheD/etc/cached-postgresql.ini.example filter=dbpassword
