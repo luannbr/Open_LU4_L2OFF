@@ -1,0 +1,7 @@
+==================================================
+nasc.exe : NPC AI Script Compiler(0.03) for 64bit
+Copyright 2002 NC Soft Inc
+any question mail to kuooo@ncsoft.co.kr
+==================================================
+
+Success!!![-1] Elapsed sec[35]

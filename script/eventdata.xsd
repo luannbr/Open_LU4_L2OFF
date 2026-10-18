@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:L2EventDataNamespace"
+           targetNamespace="urn:L2EventDataNamespace"
+           elementFormDefault="qualified">
+
+  <xs:element name="L2EventData" type="L2EventDataType"/>
+
+  <xs:complexType name="L2EventDataType">
+    <xs:sequence>
+      <xs:element name="DropEvent" type="DropEventType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="AgathionDropEvent" type="AgathionDropEventType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="CoretimeTeleport" type="CoretimeTeleportType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="FishingSetting" type="FishingSettingType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="PCCafeCouponEvent" type="PCCafeCouponEventType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="PCCafeSetting" type="PCCafeSettingType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="VoteSystem" type="VoteSystemType" minOccurs="0" maxOccurs="1"/>
+	  <xs:element name="WorldEvent" type="WorldEventType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="XmasSantaEvent" type="XmasSantaEventType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="YearCatchEvent" type="YearCatchEventType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="KalieEvent" type="KalieEventType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PCCafeSettingType">
+    <xs:sequence>
+      <xs:element name="UsingPeriods" type="PeriodsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="PCCafe" type="PCCafeType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="HomePCCafe" type="HomePCCafeType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="DailyPCCafe" type="DailyPCCafeType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="SettingSec" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="PeriodsType">
+    <xs:sequence>
+      <xs:element name="Period" type="PeriodType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="PCCafeType">
+    <xs:sequence>
+      <xs:element name="GettingPeriod" type ="PeriodType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Point" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="RandomPointProb" type="PercentageType" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="HomePCCafeType">
+    <xs:sequence>
+      <xs:element name="GettingPeriod" type="PeriodType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="Point" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="RandomPointProb" type="PercentageType" use="required"/>
+    <xs:attribute name="GettingSet" type="BoolType" use="required"/>
+    <xs:attribute name="GettingMaxSet" type="BoolType" use="required"/>
+    <xs:attribute name="GettingMaxCount" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="DailyPCCafeType">
+    <xs:sequence>
+      <xs:element name="GettingPeriod" type="PeriodType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="Point" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="PCCafeCouponEventType">
+    <xs:sequence>
+      <xs:element name="EventPeriod" type="EventPeriodType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="CouponItems" type="CouponItemsType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Ordinal" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="EventPeriodType">
+    <xs:sequence>
+      <xs:element name="Event" type="PeriodType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="AddedEvent" type="PeriodType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CouponItemsType">
+    <xs:sequence>
+      <xs:element name="CouponItem" type="CouponItemType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CouponItemType">
+    <xs:attribute name="Level" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="ItemName" type="xs:string" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="FishingSettingType">
+    <xs:sequence>
+      <xs:element name="Prizes" type="PrizesType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+    <xs:attribute name="EventMinutes" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="BreaktimeMinutes" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="RecordTime" type="BitType" use="required"/>
+    <xs:attribute name="RewardTime" type="BitType" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="PrizesType">
+    <xs:sequence>
+      <xs:element name="Prize" type="PrizeType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PrizeType">
+    <xs:attribute name="ItemName" type="xs:string" use="required"/>
+    <xs:attribute name="Amount" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="VoteSystemType">
+	<xs:sequence>
+		<xs:element name="Temp" type="BlankType" minOccurs="0" maxOccurs="1"/>
+	</xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+    <xs:attribute name="GetVoteCount" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="BonusTimeLimit" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="BonusRate" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="PlayTime" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Value" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="BlankType">
+  </xs:complexType>
+  
+  <xs:complexType name="WorldEventType">
+    <xs:sequence>
+      <xs:element name="EventTimes" type="PeriodsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="RankingCheck" type="RankingCheckType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="EventId" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="EventTimesType">
+    <xs:sequence>
+      <xs:element name="Period" type="PeriodType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RankingCheckType">
+    <xs:sequence>
+      <xs:element name="RankingCheckTime" type="RankingCheckTimeType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RankingCheckTimeType">
+    <xs:attribute name="Time" type="xs:string" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="CoretimeTeleportType">
+    <xs:sequence>
+      <xs:element name="Coretime" type="CoretimeType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="WeekDay" type="WeekDayType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="CoretimeType">
+    <xs:attribute name="Start" type="xs:time" use="required"/>
+    <xs:attribute name="End" type="xs:time" use="required"/>
+    <xs:attribute name="PriceRatio" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="WeekDayType">
+    <xs:attribute name="Start" type="WDayType" use="required"/>
+    <xs:attribute name="End" type="WDayType" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="XmasSantaEventType">
+    <xs:sequence>
+      <xs:element name="Buffs" type="BuffsType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="BuffsType">
+    <xs:sequence>
+      <xs:element name="Buff" type="BuffType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="BuffType">
+    <xs:attribute name="id"/>
+  </xs:complexType>
+
+  <xs:complexType name="YearCatchEventType">
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="DropEventType">
+    <xs:sequence>
+      <xs:element name ="Drop" type="DropType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name ="NPC" type="NPCType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="DropType">
+    <xs:sequence>
+      <xs:element name ="DropTimes" type="PeriodsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="Items" type="ItemsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="TimeVariables" type="TimeVariblesType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="NPCMinLev" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="NPCMaxLev" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="MinPlayingUserCount" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="BasePlayingUserCount" type="xs:nonNegativeInteger"/>
+  </xs:complexType>
+
+  <xs:complexType name="ItemsType">
+    <xs:sequence>
+      <xs:element name ="Item" type="ItemType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="DropSequence" type="DropSequenceType" use="required"/>
+    <xs:attribute name="DropProb" type="PercentageType"/>
+  </xs:complexType>
+
+  <xs:complexType name="ItemType">
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Amount" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Prob" type="PercentageType" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="KalieEventType">
+    <xs:sequence>
+      <xs:element name ="GiveItems" type="GiveItemsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="Post" type="PostType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="NPC" type="NPCType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Start" type="HourType" use="required"/>
+    <xs:attribute name="End" type="HourType" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="GiveItemsType">
+    <xs:sequence>
+      <xs:element name ="GiveItem" type="GiveItemType" minOccurs="1" maxOccurs="40"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PostType">
+    <xs:sequence>
+      <xs:element name ="Title" type="TitleType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="Content" type="ContentType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GiveItemType">
+    <xs:attribute name="State" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="ItemName" type="xs:string" use="required"/>
+    <xs:attribute name="ConstantA" type="xs:decimal" use="required"/>
+    <xs:attribute name="ConstantB" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Token" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="TitleType">
+    <xs:attribute name="Message" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="ContentType">
+    <xs:attribute name="Message" type="xs:string" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="AgathionDropEventType">
+    <xs:sequence>
+      <xs:element name ="Drop" type="AgathionDropType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name ="NPC" type="NPCType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Register" type="BoolType" use="required"/>
+    <xs:attribute name="AgathionId" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="AgathionLevel" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="NeedAgathionCount" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="AgathionDropType">
+    <xs:sequence>
+      <xs:element name ="DropTimes" type="PeriodsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="Items" type="AgathionItemsType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name ="TimeVariables" type="TimeVariblesType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="NPCMinLev" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="NPCMaxLev" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="MinPlayingUserCount" type="xs:nonNegativeInteger"/>
+    <xs:attribute name="BasePlayingUserCount" type="xs:nonNegativeInteger"/>
+  </xs:complexType>
+
+  <xs:complexType name="AgathionItemsType">
+    <xs:sequence>
+      <xs:element name ="Item" type="AgathionItemType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="DropSequence" type="DropSequenceType" use="required"/>
+    <xs:attribute name="DropProb" type="PercentageType"/>
+  </xs:complexType>
+
+  <xs:complexType name="AgathionItemType">
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Amount" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="CondProb" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="TimeVariblesType">
+    <xs:sequence>
+      <xs:element name ="TimeVariable" type="TimeVariableType" minOccurs="1" maxOccurs="24"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TimeVariableType">
+    <xs:attribute name="Start" type="HourType" use="required"/>
+    <xs:attribute name="End" type="HourType" use="required"/>
+    <xs:attribute name="Variable" type="xs:nonNegativeInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="NPCType">
+    <xs:sequence>
+      <xs:element name ="SpawnTimes" type="SpawnTimesType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="Tick" type="xs:nonNegativeInteger" use="required"/>
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="SpawnTimesType">
+    <xs:sequence>
+      <xs:element name ="SpawnTime" type="PeriodType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="MakerEventName" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="PeriodType">
+    <xs:attribute name="Start" type="xs:dateTime" use="required"/>
+    <xs:attribute name="End" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="WDayType">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="6"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="HourType">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="24"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PercentageType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.0"/>
+      <xs:maxInclusive value="100.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DropSequenceType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="fix"/>
+      <xs:enumeration value="random"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="BoolType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="true"/>
+      <xs:enumeration value="false"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="BitType">
+    <xs:restriction base="xs:nonNegativeInteger">
+      <xs:enumeration value="0"/>
+      <xs:enumeration value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

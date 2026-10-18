@@ -1,0 +1,69 @@
+class ai_awaken_npc : citizen
+{
+parameter:
+	string   fnHi1 = "ai_awaken_npc.htm";
+	string   fnAfter = "fnAfterClassChange.htm";
+
+handler:
+
+	EventHandler TALKED(talker)
+	{
+		ShowPage(talker, fnHi1);
+	}
+
+	EventHandler MENU_SELECTED(talker, ask ,reply)
+	{
+		if(ask == 901)
+		{
+			if(reply == 2) //시겔 나이트
+			{
+				ClassChange(talker, @sworn_guardian);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 3) //티르 워리어
+			{
+				ClassChange(talker, @colossus);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 4) //오셀 로그
+			{
+				ClassChange(talker, @bloodletter);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 5) //율 아처
+			{
+				ClassChange(talker, @prey_seeker);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 6) //페오 위자드
+			{
+				ClassChange(talker, @erudite);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 7) //이스 인챈터
+			{
+				ClassChange(talker, @battletide);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 8) //윈 서머너
+			{
+				ClassChange(talker, @ritualist);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 9) //에오르 힐러
+			{
+				ClassChange(talker, @seraph);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+		}
+		super;
+	}
+}

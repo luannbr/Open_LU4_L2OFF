@@ -1,0 +1,69 @@
+ÿþass ai_awaken_npc : citizen
+{
+parameter:
+	string   fnHi1 = "ai_awaken_npc.htm";
+	string   fnAfter = "fnAfterClassChange.htm";
+
+handler:
+
+	EventHandler TALKED(talker)
+	{
+		ShowPage(talker, fnHi1);
+	}
+
+	EventHandler MENU_SELECTED(talker, ask ,reply)
+	{
+		if(ask == 901)
+		{
+			if(reply == 2) //½Ã°Ö ³ªÀÌÆ®
+			{
+				ClassChange(talker, @sworn_guardian);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 3) //Æ¼¸£ ¿ö¸®¾î
+			{
+				ClassChange(talker, @colossus);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 4) //¿À¼¿ ·Î±×
+			{
+				ClassChange(talker, @bloodletter);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 5) //À² ¾ÆÃ³
+			{
+				ClassChange(talker, @prey_seeker);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 6) //Æä¿À À§ÀÚµå
+			{
+				ClassChange(talker, @erudite);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 7) //ÀÌ½º ÀÎÃ¦ÅÍ
+			{
+				ClassChange(talker, @battletide);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 8) //À© ¼­¸Ó³Ê
+			{
+				ClassChange(talker, @ritualist);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+			else if(reply == 9) //¿¡¿À¸£ Èú·¯
+			{
+				ClassChange(talker, @seraph);
+				SoundEffect(talker, "ItemSound.quest_fanfare_2");
+				ShowPage(talker, fnAfter);
+			}
+		}
+		super;
+	}
+}

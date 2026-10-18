@@ -1,0 +1,157 @@
+[Crash Summary]
+	Crashed Thread[0] GuardHistory[FASTEST(NO)].
+
+[Hardware Status]
+	CPU			: x64, 12 processor(s), PageSize:4096, NUMA[OFF] SMT[ON]
+	Cache(L1/L2/L3)	: CacheLine 64/64/64, TotalCacheSize 32k/256k/15360k
+	Accessible address	: 0x0000000000010000 ~ 0x000007FFFFFEFFFF
+	Physical Memory	: Free [5880 MB] / Total [24541 MB] 
+	PageFile Memory	: Free [26971 MB] / Total [49080 MB] 
+
+[Server Info]
+	Country			: KOREA [0]
+	Binary Path		: C:\Work\Lineage2Build\Server\Main\Script\TotalChecker.exe
+	Process Account	: Administrator
+	L2Protocol		: 161
+	Contents Version	: 
+	Build Date		: May 11 2018_05:21:17
+	Build Archive		: /Programming/Work/Server/Main/Shared
+	Build Compiler	: 160040219 (Version) 
+	Current Thread ID	: 4920
+	Server Up Time	: Thu Jan 01 09:00:00 1970
+
+	Current    Time	: Fri May 11 09:51:49 2018
+
+	Elapsed    Time	: 17662 dd 0:51:49 hh:mm:ss
+
+[IOBuffer Pool]
+	IOBufferPool - 0 / 0,  PendingWrite 0 bytes (0 buffer count) 
+	Detail IO Buffer Pool Size for each Thread
+
+[Object Report]
+	[active : release failed]
+	user[0:0], npc[0:0], item[0:0], usersocket[0:0], InZone[0:0], Trade[0:0], Auction[0:0] AirShip[0:0] Max InZone NPC[0]
+[StaticObject Report]
+	ResidenceDecoVisible[0], AirShipSteering[0], AirShipPart[0], BattleCamp[0], Chair[88], ResidenceDecoVisible[108], Door[3392], EventController[757], EventMatch[0], FortressFlagpole[20], ObserverRemains[0], SignBoard[82], Statue[0], TeamBattleFlag[0], EtcStaticObject[0]
+
+[ThreadLocalWorldMap Pipe]
+	(tid): XXX (Last - First = / MAX_XXX_CONCURRENCY)
+
+[NPC Server Connection Log]
+	no connect
+
+[Crash Info]
+	an Access Violation in module TotalChecker.exe at 0033:0x0000000000951C9A.
+	Read from location 0x0000000000000000 caused an access violation.
+
+	Registers:
+	RAX=0x0000000000000000 CS=0033 RIP=0x0000000000951C9A EFLGS=0x0000000000010202
+	RBX=0x0000000000000013 SS=002b RSP=0x000000000012F790 RBP  =0x000000000012F7E9
+	RCX=0x0000000000000000 DS=002b RSI=0x0000000000000012 FS=0053
+	RDX=0x000000000000000A ES=002b RDI=0x0000000000000006 GS=002b
+	R08=0x0000000093ACC078 R12=0x000000000012F900
+	R09=0x0000000093ACC050 R13=0x0000000000000000
+	R10=0x0000000000000015 R14=0x0000000000000000
+	R11=0x000000000012F820 R15=0x0000000000000001
+
+	Bytes at CS:RIP:
+	48 8b 01 ff 90 a0 04 00 00 4c 8b c8 89 5c 24 20 
+
+	Stackdump
+	000000000012F790: 0012f900 00000000 00000054 00000000 0000003f 00000000 00000007 00000000
+	000000000012F7B0: 00000000 00000000 00000190 00000000 fffffffe ffffffff 009517f5 00000000
+	000000000012F7D0: 0012f9f0 00000000 009baca7 00000000 00000007 00000000 76a1fa10 00000000
+	000000000012F7F0: 00000000 00000000 00000000 00000000 00000008 00000000 009bab32 00000000
+	000000000012F810: 0012f9f0 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	000000000012F830: 00000000 00000000 00000006 00000000 0012f9c0 00000000 009bb290 00000000
+	000000000012F850: 0012f900 00000000 0012f9c0 00000000 00000020 00000000 00000012 00000000
+	000000000012F870: 00000000 00000000 19b10940 00000000 13c1e410 00000000 009bb8ab 00000000
+	000000000012F890: 0012f900 00000000 0012f9c0 00000000 00000001 00000000 00004fa7 00000000
+	000000000012F8B0: 0022331a 00000000 005eb971 00000000 0022331a 00000000 0012f9c0 00000000
+	000000000012F8D0: 00000001 00000000 13c1e410 00000000 00000000 00000000 00000000 00000000
+	000000000012F8F0: fffffffe ffffffff 00000000 00000000 00c6e968 00000000 981f78c0 00000000
+	000000000012F910: 981f78c0 00000000 76a1fca0 00000000 76a1fca0 00000000 00000064 00000064
+	000000000012F930: 00000000 0000000c 00000008 00000000 98a71c30 00000000 00000000 00010002
+	000000000012F950: 989e0001 00000000 00000000 00000000 00000000 00000000 0012f9f0 00000000
+	000000000012F970: 989e1f01 00000000 98a71c40 00000000 00ebf9c0 00000000 00000000 00000000
+	000000000012F990: 00c6e860 00000000 00000000 00000000 00c6e460 00000000 00c6e670 00000000
+	000000000012F9B0: 00000052 00000000 00c6e2d0 00000000 00c6e3e0 00000000 0000001e 00000000
+	000000000012F9D0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	000000000012F9F0: 00c6dbc8 00000000 00000004 00000100 76a1fa10 00000000 76a1fa10 00000000
+
+[Guard Info]
+	CapchaThread	[16][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	GoodsInventoryThread	[17][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	RelayThread	[18][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	RaidThread	[19][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	PremiumThread	[20][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	L2CommThread	[21][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	PetitionThread	[22][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	GIPThread	[23][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	LogThread	[24][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	PerfMonThread	[25][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	MainThread	[26][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+	ListenThread	[27][start: 0][1380749 ms] (good):  	SkillInfo actor dbid:0, skill_id:0 target_cnt:0
+	PostInfo count: 0 post dbids: 
+	UserGCInfo EnterTime[0] DBID[0] RefCnt[0]
+	CheckBuffInfo userDBID[0] abnormalType[0] infectedSkillId[0], loopCount[0]
+		Lock Stack : 
+
+
+
+

@@ -1,0 +1,35 @@
+guild_master_test_helper1.MENU_SELECTED: branch backwards at 124: shift_sp -2 //; push_const 40 //unary->INTEGER_CONST; greater_equal  //; branch_false L7384 //; push_event  //myself; push_const 784 //DeleteItem1
+guild_master_test_helper1.LEVEL_UP_PLEDGE: branch leaves the block at 80: shift_sp -2 //; push_const 4 //unary->INTEGER_CONST; greater_equal  //; branch_false L7752 //; push_event  //myself; push_const 784 //DeleteItem1
+fisher.MENU_SELECTED: uses a value of GF GetFishingEventRewardRemainTime(): this function does not exist here at 21: fetch_i  //GetFishingEventRewardRemainTime; func_call 234881467 //func[GetFishingEventRewardRemainTime]; push_const 0 //unary->INTEGER_CONST; equal  //; branch_false L7849 //; push_event  //myself
+fisher_for_chaotic.MENU_SELECTED: uses a value of GF GetFishingEventRewardRemainTime(): this function does not exist here at 21: fetch_i  //GetFishingEventRewardRemainTime; func_call 234881467 //func[GetFishingEventRewardRemainTime]; push_const 0 //unary->INTEGER_CONST; equal  //; branch_false L7875 //; push_event  //myself
+rim_maker: defined again; the first definition is kept
+e_custodian_regina.SEE_CREATURE: the event does not exist in this server
+e_custodian_regina.MENU_SELECTED: branch leaves the block at 138: fetch_i4  //; push_const 20 //; greater  //; branch_true L260014 //; call_super  //
+e7_karik1.SEE_CREATURE: else leaves the block at 19: fetch_i4  //; push_const 0 //; greater  //; branch_false L260101 //; push_event  //myself; push_const 784 //myself
+e7_karik2.SEE_CREATURE: else leaves the block at 19: fetch_i4  //; push_const 19 //; greater  //; branch_false L260102 //; push_event  //myself; push_const 784 //myself
+e7_karik3.SEE_CREATURE: else leaves the block at 19: fetch_i4  //; push_const 39 //; greater  //; branch_false L260103 //; push_event  //myself; push_const 784 //myself
+e7_karik4.SEE_CREATURE: else leaves the block at 19: fetch_i4  //; push_const 51 //; greater  //; branch_false L260104 //; push_event  //myself; push_const 784 //myself
+chronicler.TALKED: jump outside a known structure at 75: func_call 235012232 //func[FHTML_SetFileName]; shift_sp -2 //; shift_sp -1 //; jump L271002 //; push_event  //myself; push_const 784 //myself
+chronicler.MENU_SELECTED: branch leaves the block at 27: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_true L271000 //; push_event  //myself; push_const 784 //myself
+start_npc.SEE_CREATURE: the event does not exist in this server
+start_npc.MENU_SELECTED: branch leaves the block at 208: fetch_i4  //; push_const 4 //; equal  //; branch_false L261022 //; push_event  //myself; push_const 784 //myself
+e_g_deatera.SEE_CREATURE: the event does not exist in this server
+e_g_deatera.TALKED: the event does not exist in this server
+e_g_deatera.MENU_SELECTED: branch leaves the block at 54: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_true L261000 //; push_event  //myself; push_const 784 //myself
+e_g_darkknight.SEE_CREATURE: the event does not exist in this server
+e_g_die_people.NO: the event does not exist in this server
+e_g_darkknight: defined again; the first definition is kept
+e10_gercog_diona.TALKED: else leaves the block at 131: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_false L271071 //; push_event  //myself; push_const 784 //myself
+e10_gercog_diona.MENU_SELECTED: branch leaves the block at 34: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_true L271060 //; push_event  //myself; push_const 784 //myself
+e11_yrgukar.MENU_SELECTED: else leaves the block at 23: fetch_i4  //; push_const 1 //; equal  //; branch_true L270207 //; push_event  //myself; push_const 784 //myself
+e11_ronald.MENU_SELECTED: else leaves the block at 23: fetch_i4  //; push_const 1 //; equal  //; branch_true L270217 //; push_event  //myself; push_const 784 //myself
+e11_shiflen.MENU_SELECTED: else leaves the block at 23: fetch_i4  //; push_const 1 //; equal  //; branch_true L270227 //; push_event  //myself; push_const 784 //myself
+e11_arhigrael.MENU_SELECTED: else leaves the block at 23: fetch_i4  //; push_const 1 //; equal  //; branch_true L270237 //; push_event  //myself; push_const 784 //myself
+e_t_battle_master.MENU_SELECTED: branch leaves the block at 27: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_true L270160 //; push_event  //myself; push_const 784 //myself
+duh_e12.TALKED: else leaves the block at 23: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_false L271101 //; push_event  //myself; push_const 784 //myself
+duh_e12.MENU_SELECTED: branch leaves the block at 27: shift_sp -2 //; push_const 1 //; greater_equal  //; branch_true L271200 //; push_event  //myself; push_const 784 //myself
+duh_e12.TIMER_FIRED_EX: fetch without an address at 118: push_reg_sp  //; fetch_i  //; push_const 0 //; fetch_i4  //; assign4  //; shift_sp -1 //
+buffer_npc.TALKED: else leaves the block at 19: fetch_i4  //; push_const 0 //; greater  //; branch_false L259102 //; push_event  //myself; push_const 784 //myself
+e11_drake_avlariel.MENU_SELECTED: branch leaves the block at 20: shift_sp -2 //; push_const 500 //; greater_equal  //; branch_false L204 //; push_event  //myself; push_const 784 //myself
+e_raid_box_key_s.MENU_SELECTED: branch leaves the block at 17: push_const 1500 //; negate  //; equal   //; branch_false L1 //; push_event  //myself; push_const 784 //myself
+superGK.MENU_SELECTED: else leaves the block at 41: fetch_i4  //; push_const 0 //; equal  //; branch_false L3 //; push_event  //myself; push_const 784 //myself

@@ -1,0 +1,1 @@
+route_id taken from skill_level (GF route_id differs): s_binding_trap8, s_fire_trap9, s_flish_trap5, s_poison_trap6, s_slow_trap6

@@ -1,0 +1,83 @@
+GetSummon replaced by GetPet (pets only): 72
+  13	pet_manager
+  5	fairy_mymyu
+  4	master_lv3_hef
+  4	master_lv3_hew
+  4	master_lv3_hec
+  4	master_lv3_de
+  4	master_lv3_orc
+  4	master_lv3_ware
+  4	master_lv3_black
+  3	guild_master_kamael_subjob
+  3	engineer_recon
+  2	announce_raid_boss_position
+  1	newbie_guide
+  1	wizard_heretic_priest
+  1	warrior_heretic_priest
+  1	e_gate_worker
+  1	event_race_start_npc
+  1	black_judge
+  1	dawn_acolyte1
+  1	dawn_acolyte2
+  1	dawn_acolyte3
+  1	dawn_acolyte4
+  1	dawn_acolyte5
+  1	dusk_acolyte1
+  1	dusk_acolyte2
+  1	dusk_acolyte3
+  1	dusk_acolyte4
+  1	dusk_acolyte5
+  1	pa61_enchant_npc
+  1	pa61_reward_npc
+calls to GF functions that do not exist here (left out, value 0): 3
+  1	GetFishingEventRewardRemainTime  in fisher
+  1	GetFishingEventRewardRemainTime  in fisher_for_chaotic
+  1	XMasEventManagerEnter  in ai_event_xmas_manager
+numbers in skill places that are no GF skill (kept): 47
+  5	AddUseSkillDesire argument 1: 282754
+  5	AddUseSkillDesire argument 1: 319618
+  5	AddUseSkillDesire argument 1: 281474
+  5	AddUseSkillDesire argument 1: 319362
+  5	AddUseSkillDesire argument 1: 282118
+  5	AddUseSkillDesire argument 1: 342273
+  4	wizard_heretic_priest: 1
+  2	AddUseSkillDesire argument 1: 278146
+  2	AddUseSkillDesire argument 1: 1155841
+  1	warrior_parameter: 1
+  1	wizard_parameter: 1
+  1	wizard_ag_heretic_priest: 1
+  1	warrior_heretic_priest: 1
+  1	warrior_ag_heretic_priest: 1
+  1	raid_boss_C_course_mirror: 302
+  1	AddUseSkillDesire argument 1: 332418
+  1	AddUseSkillDesire argument 1: 297742
+  1	AddUseSkillDesire argument 1: 5379
+MakeFString with an unknown fstring: 7
+  4	1500167
+  2	1010638
+  1	71559
+teleport names without an fstring (closest used): 17
+  2	Â Aden.. -> Aden
+  2	The Dark Elven Village -> The Dark Elf Village
+  2	Arena (Gludin Harbor) -> Gludin Harbor
+  2	Arena (Giran Castle Town) -> Front of the Giran Castle
+  1	Gludio Castle Town -> Gludio Town Square
+  1	Giran Castle Town -> Giran Town Square
+  1	Rune Castle Town -> Rune Township
+  1	Goddard Castle Town -> Goddard Town Square
+  1	Giran Harbor (Devil Island) -> Giran Harbor
+  1	01-20 lvl -> Windy Hill
+  1	20-40 lvl -> Windy Hill
+  1	40-52 lvl -> Windy Hill
+  1	52-99 lvl -> Windy Hill
+handlers left out: broken in the GF pack: 5
+  1	e_custodian_regina.SEE_CREATURE
+  1	start_npc.SEE_CREATURE
+  1	e_g_deatera.SEE_CREATURE
+  1	e_g_deatera.TALKED
+  1	e_g_darkknight.SEE_CREATURE
+handlers left out: the event does not exist here: 1
+  1	e_g_die_people.NO
+arithmetic on skills (check): 2
+  1	daimons_rydnik: skill_name_id / 256
+  1	e_raid_box_key: skill_name_id / 256

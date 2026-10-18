@@ -1,0 +1,3 @@
+NPC 32320: not in npcdata; auction left out
+NPC 32321: not in npcdata; auction left out
+NPC 32322: not in npcdata; auction left out

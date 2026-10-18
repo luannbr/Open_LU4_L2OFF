@@ -1,0 +1,62 @@
+[s_pledge_clan_body1]: GF cost 1500 clan reputation and items {{[earth_egg];10}}; now free at clan level 5
+[s_pledge_clan_body2]: GF cost 6900 clan reputation and items {{[earth_egg];10}}; now free at clan level 7
+[s_pledge_clan_body3]: GF cost 13200 clan reputation and items {{[earth_egg];10}}; now free at clan level 11
+[s_pledge_clan_spirit1]: GF cost 2100 clan reputation and items {{[core_of_false_life];10}}; now free at clan level 6
+[s_pledge_clan_spirit2]: GF cost 5600 clan reputation and items {{[core_of_false_life];10}}; now free at clan level 7
+[s_pledge_clan_spirit3]: GF cost 12000 clan reputation and items {{[core_of_false_life];10}}; now free at clan level 8
+[s_pledge_clan_soul1]: GF cost 12000 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 8
+[s_pledge_clan_health1]: GF cost 1500 clan reputation and items {{[earth_egg];10}}; now free at clan level 5
+[s_pledge_clan_health2]: GF cost 6900 clan reputation and items {{[earth_egg];10}}; now free at clan level 7
+[s_pledge_clan_health3]: GF cost 13200 clan reputation and items {{[earth_egg];10}}; now free at clan level 11
+[s_pledge_clan_morale1]: GF cost 2600 clan reputation and items {{[core_of_false_life];10}}; now free at clan level 6
+[s_pledge_clan_morale2]: GF cost 13000 clan reputation and items {{[core_of_false_life];10}}; now free at clan level 8
+[s_pledge_clan_clarity1]: GF cost 12000 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 8
+[s_pledge_clan_might1]: GF cost 3000 clan reputation and items {{[heart_of_dragons];10}}; now free at clan level 6
+[s_pledge_clan_might2]: GF cost 6500 clan reputation and items {{[heart_of_dragons];10}}; now free at clan level 7
+[s_pledge_clan_might3]: GF cost 13000 clan reputation and items {{[heart_of_dragons];10}}; now free at clan level 8
+[s_pledge_clan_shield1]: GF cost 3000 clan reputation and items {{[earth_egg];10}}; now free at clan level 6
+[s_pledge_clan_shield2]: GF cost 6500 clan reputation and items {{[earth_egg];10}}; now free at clan level 7
+[s_pledge_clan_shield3]: GF cost 13000 clan reputation and items {{[earth_egg];10}}; now free at clan level 8
+[s_pledge_clan_empower1]: GF cost 12000 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 8
+[s_pledge_clan_magic_barrier1]: GF cost 1500 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 5
+[s_pledge_clan_magic_barrier2]: GF cost 6900 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 7
+[s_pledge_clan_magic_barrier3]: GF cost 13200 clan reputation and items {{[soul_of_angel];10}}; now free at clan level 11
+[s_pledge_clan_guidance1]: GF cost 5600 clan reputation and items {{[skull_of_death_spirit];10}}; now free at clan level 7
+[s_pledge_clan_guidance2]: GF cost 12000 clan reputation and items {{[skull_of_death_spirit];10}}; now free at clan level 8
+[s_pledge_clan_agility1]: GF cost 12000 clan reputation and items {{[skull_of_death_spirit];10}}; now free at clan level 8
+[s_pledge_clan_shield_block1]: GF cost 5100 clan reputation and items {{[skull_of_death_spirit];10}}; now free at clan level 7
+[s_pledge_clan_shield_block2]: GF cost 12000 clan reputation and items {{[skull_of_death_spirit];10}}; now free at clan level 8
+[s_pledge_clan_shield_defense1]: GF cost 2100 clan reputation and items {{[heart_of_dragons];10}}; now free at clan level 6
+[s_pledge_clan_shield_defense2]: GF cost 12000 clan reputation and items {{[heart_of_dragons];10}}; now free at clan level 8
+[s_pledge_clan_resist_typhoon1]: GF cost 5100 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 7
+[s_pledge_clan_resist_typhoon2]: GF cost 12000 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 8
+[s_pledge_clan_resist_lava1]: GF cost 5100 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 7
+[s_pledge_clan_resist_lava2]: GF cost 12000 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 8
+[s_pledge_clan_fortitude1]: GF cost 5100 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 7
+[s_pledge_clan_fortitude2]: GF cost 12000 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 8
+[s_pledge_clan_freedom1]: GF cost 5100 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 7
+[s_pledge_clan_freedom2]: GF cost 12000 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 8
+[s_pledge_clan_vigilance1]: GF cost 5100 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 7
+[s_pledge_clan_vigilance2]: GF cost 12000 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 8
+[s_pledge_clan_movement1]: GF cost 11000 clan reputation and items {{[cradle_of_creation_a];1}}; now free at clan level 8
+[s_pledge_clan_death_fortune1]: GF cost 6900 clan reputation and items {{[cradle_of_creation_a];1}}; now free at clan level 7
+[s_pledge_clan_death_fortune2]: GF cost 14000 clan reputation and items {{[cradle_of_creation_a];1}}; now free at clan level 8
+[s_pledge_clan_imperium1]: GF cost 0 clan reputation and items {{[tombstone_of_destruction];1}}; now free at clan level 5
+[s_pledge_squad_fire1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_fire2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_fire3]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_water1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_water2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_water3]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_wind1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_wind2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_wind3]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_earth1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_earth2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_earth3]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_holy1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_holy2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_holy3]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_dark1]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_dark2]: squad skill ([SUB_2_2]), left out
+[s_pledge_squad_dark3]: squad skill ([SUB_2_2]), left out
