@@ -1,15 +1,18 @@
 # Build output
 /build/
 
-# Game data and geodata (too large for GitHub; files over 100 MB)
-/GeoData/
-/GeoData_gf/
-/script/
-/script_gf/
-/html_KOREA/
-/html_USA/
-/html_gf/
+# Over GitHub's 100 MB limit: committed zipped (*.zip, or split into 95 MB *.zip.001, ...)
+/GeoData/pathnode.bin
+/GeoData/pathnode.txt
+/GeoData_gf/pathnode.bin
+/script/ai.obj
+/script/Itemdata.txt
+/script/skilldata.txt
+/script_gf/ai.obj
+
+# Local backups
 /backups/
+*.antes-*
 
 # Local tooling
 /.claude/
