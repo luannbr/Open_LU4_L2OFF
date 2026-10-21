@@ -355,15 +355,15 @@ bool CClientSession::LoginPacket(const unsigned char* packet) {
     const auto cdKind = static_cast<unsigned short>(GetShortFromPacket(&packet));
     const char clientInstances = GetCharFromPacket(&packet);
     if (config.lu4Mode && std::memcmp(account, "\x7fLU4", 4) == 0) {
-        // AuthGateD marks LU4 logins (its lu4Port); take the credentials the
-        // client hook sent from this address (Lu4Validator.h).
+        // AuthGateD marks LU4 logins (its lu4Port); take the credentials
+        // lu4loader or the client hook sent from this address (Lu4Validator.h).
         m_lu4 = true;
         std::string lu4Account;
         std::string lu4Password;
         if (!lu4::TakeCredentials(m_addr, lu4Account, lu4Password)) {
             L2_LOG_WARN(Log,
-                "[lu4] Login from %s on session %u has no credentials from the client hook "
-                "(lu4authhook.dll not injected, or more than five minutes passed). Login refused.",
+                "[lu4] Login from %s on session %u has no credentials from lu4loader or the client hook "
+                "(the loader is not running, lu4authhook.dll is not injected, or they expired). Login refused.",
                 IP(), m_sessionId);
             SendFail(1, 3, nullptr);
             return false;
