@@ -8,7 +8,7 @@ DebugLogging = 1
 ; Shipping: 2106
 ; TCP listener port for the main server connection interface. 0 is the loader default, so
 ; deployments should set a usable port.
-serverPort = 2106
+serverPort = 2206
 ; Shipping: 127.0.0.1
 ; IPv4 address of AuthD's extended listener. AuthGateD connects to this peer.
 authAddr = "127.0.0.1"

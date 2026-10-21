@@ -144,9 +144,12 @@ bool TakeCredentials(in_addr address, std::string& account, std::string& passwor
     if (valid) {
         account = found->second.account;
         password = found->second.password;
+        // Reutilizavel dentro do TTL (permite relogar sem reabrir o cliente). O loader
+        // re-popula periodicamente (sobrescreve o par do IP), entao fica sempre fresco.
+        return true;
     }
-    g_pending.erase(found);
-    return valid;
+    g_pending.erase(found); // so' remove quando expirou
+    return false;
 }
 
 } // namespace lu4

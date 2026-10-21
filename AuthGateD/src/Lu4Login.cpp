@@ -21,12 +21,21 @@ std::vector<unsigned char> FromHex(std::string_view hex) {
     return bytes;
 }
 
-// Captured from the official service (D:\LU4\tools\capture-analysis\login-packets.json).
+// Init montado para o DEBUG build (lu4.bin). O debug le a chave Blowfish de
+// sessao na mensagem interna nos offsets 21..36 (mensagem de 37 bytes), nao nos
+// 7..22 do Init oficial de 21 bytes do shipping -- por isso o Init oficial fazia
+// o debug instalar lixo (opcode 255). Aqui a chave em 21..36 = bcaf6450..., que
+// e exatamente a matriz de lu4_auth_key.bin, entao a decifragem com a matriz fixa
+// funciona. Assinatura: marcador MAGIC na metade R (aceito pelo loader_cave) +
+// metade S preservada do Init oficial (mantem S<L no range-check do Ed25519).
+// Layout da mensagem (relativo ao opcode): [0]op=00 [1..16]prefix [17..20]sid
+// (ecoa em login[1..4]) [21..36]chave. Gerado por scratchpad/gen_init.py.
+// (Prova causal: relatorio da outra IA 2026-10-21, lu4_controlled_init_verified.json.)
 constexpr std::string_view kInitHex =
-    "620054CC4120F6D045B474513B970B62886B19956519808089F5F959E7C2AFFF"
-    "85EC8B9186D26BEE5CA6A5D716293CD8926D0A43FDAAFE3FEC25A5D6935A807E"
-    "17E4199841124094277BFC9C7E1B589AE77E552FE115FAC5919FD8402BABAFD7"
-    "12AC";
+    "7200CF8F0419EFA1D4E274513B970B62886B0676E99EAD83A9F9A704AF206959"
+    "6F3C6E457843B96E4546873849FCB86CF6CDCF2FB7164C55354B9A313DAAC822"
+    "DD554110A9D0B43B4A51A49800E842197CA08A28978B3C605BBA1D4C14203324"
+    "698FC57C8F2A1395480CBB9BC88D54964F28";
 
 // The 34 bytes the client reads after the MAC, one per reply kind, from the
 // same capture. The client needs them present; the MAC marker is what it checks.

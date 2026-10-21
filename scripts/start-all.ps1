@@ -19,15 +19,25 @@ The game data (2018 or GF) is chosen in scripts\data-set.txt; see run-server.ps1
 $runner = Join-Path $PSScriptRoot 'run-server.ps1'
 $root = Split-Path $PSScriptRoot -Parent
 
+# Reads "<Key> = <port>" from a server config; the default when it is missing.
+function Get-ConfigPort([string] $File, [string] $Key, [int] $Default) {
+    $line = Get-Content (Join-Path $root $File) -ErrorAction SilentlyContinue |
+        Where-Object { $_ -match "^\s*$Key\s*=\s*(\d+)" } | Select-Object -First 1
+    if ($line -and $line -match '=\s*(\d+)') { return [int] $Matches[1] }
+    return $Default
+}
+
 # Ports come from AuthD\etc\config.txt (serverPort, serverExPort),
 # AuthGateD\etc\config.txt (serverPort), CacheD's listeners and
-# L2Server\etc\l2server.ini (UserPort, NPCPort). Update them here if those change.
-$npcPort = 2002
+# L2Server\etc\l2server.ini (UserPort, NPCPort). CacheD's are fixed here.
+$gatePort = Get-ConfigPort 'AuthGateD\etc\config.txt' 'serverPort' 2106
+$userPort = Get-ConfigPort 'L2Server\etc\l2server.ini' 'UserPort' 7777
+$npcPort = Get-ConfigPort 'L2Server\etc\l2server.ini' 'NPCPort' 2002
 $servers = @(
-    @{ Name = 'AuthD';     Ports = @(2104, 2110);         TimeoutSeconds = 120 }
-    @{ Name = 'AuthGateD'; Ports = @(2106);               TimeoutSeconds = 60 }
+    @{ Name = 'AuthD';     Ports = @((Get-ConfigPort 'AuthD\etc\config.txt' 'serverPort' 2104), (Get-ConfigPort 'AuthD\etc\config.txt' 'serverExPort' 2110)); TimeoutSeconds = 120 }
+    @{ Name = 'AuthGateD'; Ports = @($gatePort);          TimeoutSeconds = 60 }
     @{ Name = 'CacheD';    Ports = @(12006, 12008, 12012); TimeoutSeconds = 600 }
-    @{ Name = 'L2Server';  Ports = @(7777, $npcPort);     TimeoutSeconds = 900 }
+    @{ Name = 'L2Server';  Ports = @($userPort, $npcPort); TimeoutSeconds = 900 }
 )
 
 function Write-Status([string] $Message, [ConsoleColor] $Color = 'Cyan') {

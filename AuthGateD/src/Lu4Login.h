@@ -3,13 +3,21 @@
 // Login wire of the LU4 (Liberta Ultimata 4) client. Portable addition, not
 // part of the original AuthGateD; enabled by lu4Mode in etc/config.txt.
 //
-// The client is VMProtect-protected and three things were never reversed: the
-// Blowfish key it derives from the Init packet, the 32-byte MAC that follows
-// every server reply and the RSA key of its credentials block. What works
-// (proven by the Lucera port in D:\LU4):
+// The client is VMProtect-protected. The 32-byte MAC that follows every server
+// reply and the RSA key of its credentials block are still not reversed. The
+// Blowfish key WAS recovered (2026-10-20): it is a standard Blowfish with the
+// 16-byte raw key below, obtained offline by inverting the captured key
+// schedule in etc/lu4_auth_key.bin (D:\LU4\client-mods\lu4bin-unpacked\
+// scripts\bf_invert.py; re-expansion reproduces the table exactly).
+//   raw key (big-endian) = BC AF 64 50 71 3E 25 CF E1 72 C2 F4 BE BE 39 B2
+//   -> CBlowfishWrapper::Init(key, 16) now reproduces lu4_auth_key.bin, so the
+//      captured blob can be replaced by the key. Derivation from the Init
+//      (seed scheme) is still not the official GenerateInitialKey.
+// What works (proven by the Lucera port in D:\LU4):
 //   - send the official Init captured from the live service, unchanged;
 //   - encrypt with the Blowfish table the client expands from that Init
-//     (captured from its memory: etc/lu4_auth_key.bin, P[18] then S[4][256]);
+//     (captured from its memory: etc/lu4_auth_key.bin, P[18] then S[4][256];
+//      equivalently BF_set_key with the 16-byte raw key above);
 //   - put a marker in place of the MAC; lu4authhook.dll, injected into the
 //     client, accepts it;
 //   - take account and password from lu4authhook.dll, which sends them to the
