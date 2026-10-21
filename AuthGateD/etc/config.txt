@@ -102,9 +102,9 @@ useGCSideExtendAccount = false
 
 ; Portable: port of the LU4 (Liberta Ultimata 4) client login; 0 disables it.
 ; serverPort keeps serving the usual client. Needs etc\lu4_auth_key.bin,
-; Lu4Mode in AuthD\etc\config.txt and lu4authhook.dll injected into the
+; Lu4Mode in AuthD\etc\config.txt and lu4loader (or lu4authhook.dll) on the
 ; client. The LU4 client connects to 185.29.255.102:2108; the local netsh
-; portproxy sends that port here.
+; portproxy sends that port here. See docs/LU4_CLIENT.md.
 lu4Port = 2107
 
 ; The historical deployment named an NCSoft SMTP host. The portable runnable

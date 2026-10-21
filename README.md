@@ -31,6 +31,10 @@ PostgreSQL. Build requirements for each platform are in
 - `docs/`: the configuration files, the AI compiler, the fixed defects of the
   original servers and the Builder (GM) command reference
   `docs/builder/index.html`.
+- `tools/client/`: client data tools, including the LU4 Init generator.
+
+The servers also serve the LU4 (Liberta Ultimata 4) client; see
+[docs/LU4_CLIENT.md](docs/LU4_CLIENT.md).
 
 ## Build
 

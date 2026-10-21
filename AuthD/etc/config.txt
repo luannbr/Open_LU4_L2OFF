@@ -450,9 +450,10 @@ usePASideExtendAccount = false
 ; information") instead, for clients without that fix.
 UnpatchedEuClientLoginFail = false
 ; Portable: login of the LU4 (Liberta Ultimata 4) client, next to the usual
-; one. Needs lu4Port in AuthGateD\etc\config.txt and lu4authhook.dll injected
-; into the client, which sends the typed account and password to
-; 127.0.0.1:Lu4ValidatorPort.
+; one. Needs lu4Port in AuthGateD\etc\config.txt and, on the client, lu4loader
+; (lu4.bin) or the injected lu4authhook.dll (lu4-win64-shipping.exe), which
+; send the account and password to 127.0.0.1:Lu4ValidatorPort. See
+; docs/LU4_CLIENT.md.
 Lu4Mode = true
 Lu4ValidatorPort = 27110
 ; Age threshold for the scheduled shutdown/curfew policy.
